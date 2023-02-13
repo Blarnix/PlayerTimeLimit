@@ -1,9 +1,8 @@
 # PlayerTimeLimit
-<<<<<<< HEAD
- https://www.spigotmc.org/resources/96577/
-=======
 
 Original plugin and [documentation ](https://www.spigotmc.org/resources/playertimelimit-1-8-1-19.96577/)created by [ajneb97](https://github.com/Ajneb97/PlayerTimeLimit), fork and modifications created by Blarnix.
+
+================================================================================================
 
 ##### **WARNING: At this point in time, none of code is remotely ready for use or tested. TEsting 123s**
 
@@ -171,4 +170,11 @@ notification:
 ##### **SCREENSHOTS**
 
 (TBD)
+
 >>>>>>> 23f360e (translate and clean up classes)
+>>>>>>>
+>>>>>>
+>>>>>
+>>>>
+>>>
+>>
