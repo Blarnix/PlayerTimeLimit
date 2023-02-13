@@ -1,0 +1,167 @@
+
+6src\main\java\blarnix\configs\others\Notification.java 
+
+#blarnix.configs.others.NotificationCLASS@
+6src\main\java\blarnix\configs\others\Notification.java ("!
+packageblarnix.configs.others"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"j
+declarationStringU<mark class="modifier">public </mark><mark class="modifier">class </mark>Notification"
+accesspublic*Notification2®
+Wblarnix.configs.others.Notification.Notification(int, java.util.List<java.lang.String>)DECLARATION@
+6src\main\java\blarnix\configs\others\Notification.java (2Å
+0blarnix.configs.others.Notification.getSeconds()DECLARATION@
+6src\main\java\blarnix\configs\others\Notification.java (2Ñ
+3blarnix.configs.others.Notification.setSeconds(int)DECLARATION@
+6src\main\java\blarnix\configs\others\Notification.java (2Å
+0blarnix.configs.others.Notification.getMessage()DECLARATION@
+6src\main\java\blarnix\configs\others\Notification.java (2°
+Pblarnix.configs.others.Notification.setMessage(java.util.List<java.lang.String>)DECLARATION@
+6src\main\java\blarnix\configs\others\Notification.java (2Ü
+5blarnix.configs.others.Notification?seconds@6.13:6.20DECLARATION@
+6src\main\java\blarnix\configs\others\Notification.java (2Ü
+5blarnix.configs.others.Notification?message@7.22:7.29DECLARATION@
+6src\main\java\blarnix\configs\others\Notification.java (∂
+Wblarnix.configs.others.Notification.Notification(int, java.util.List<java.lang.String>)CONSTRUCTOR@
+6src\main\java\blarnix\configs\others\Notification.java ("Ê
+declarationString–<mark class="modifier">public </mark><mark class="method">Notification</mark>(<mark class="modifier">int</mark> seconds<mark class="modifier"><mark class="modifier">,</mark></mark> List&lt;String&gt; message)*Notification2c
+java.lang.Object.Object()CALL@
+6src\main\java\blarnix\configs\others\Notification.java	 	(2©
+_blarnix.configs.others.Notification.Notification(int, java.util.List<java.lang.String>)!secondsCALL@
+6src\main\java\blarnix\configs\others\Notification.java
+ 
+(2©
+_blarnix.configs.others.Notification.Notification(int, java.util.List<java.lang.String>)!messageCALL@
+6src\main\java\blarnix\configs\others\Notification.java (2
+5blarnix.configs.others.Notification?seconds@6.13:6.20CALL@
+6src\main\java\blarnix\configs\others\Notification.java
+ 
+(2
+5blarnix.configs.others.Notification?message@7.22:7.29CALL@
+6src\main\java\blarnix\configs\others\Notification.java (2Æ
+_blarnix.configs.others.Notification.Notification(int, java.util.List<java.lang.String>)!seconds	PARAMETER@
+6src\main\java\blarnix\configs\others\Notification.java ( 2Æ
+_blarnix.configs.others.Notification.Notification(int, java.util.List<java.lang.String>)!message	PARAMETER@
+6src\main\java\blarnix\configs\others\Notification.java/ (62t
+#blarnix.configs.others.NotificationRETURN_TYPE@
+6src\main\java\blarnix\configs\others\Notification.java (Â
+_blarnix.configs.others.Notification.Notification(int, java.util.List<java.lang.String>)!seconds	PARAMETER@
+6src\main\java\blarnix\configs\others\Notification.java ( "
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> seconds*seconds2M
+intTYPE@
+6src\main\java\blarnix\configs\others\Notification.java (…
+_blarnix.configs.others.Notification.Notification(int, java.util.List<java.lang.String>)!message	PARAMETER@
+6src\main\java\blarnix\configs\others\Notification.java/ (6"
+typeList<String>"
+isFinalfalse")
+declarationStringList<String> message*message2X
+java.util.ListTYPE@
+6src\main\java\blarnix\configs\others\Notification.java" (&2c
+java.lang.StringTYPE_ARGUMENT@
+6src\main\java\blarnix\configs\others\Notification.java' (-ø
+0blarnix.configs.others.Notification.getSeconds()METHOD@
+6src\main\java\blarnix\configs\others\Notification.java ("
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getSeconds</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*
+getSeconds2
+5blarnix.configs.others.Notification?seconds@6.13:6.20CALL@
+6src\main\java\blarnix\configs\others\Notification.java	 (2T
+intRETURN_TYPE@
+6src\main\java\blarnix\configs\others\Notification.java (Ñ
+3blarnix.configs.others.Notification.setSeconds(int)METHOD@
+6src\main\java\blarnix\configs\others\Notification.java ("
+isFinalfalse"Ø
+declarationStringô<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setSeconds</mark>(<mark class="modifier">int</mark> seconds)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+setSeconds2Ö
+;blarnix.configs.others.Notification.setSeconds(int)!secondsCALL@
+6src\main\java\blarnix\configs\others\Notification.java (2
+5blarnix.configs.others.Notification?seconds@6.13:6.20CALL@
+6src\main\java\blarnix\configs\others\Notification.java (2ä
+;blarnix.configs.others.Notification.setSeconds(int)!seconds	PARAMETER@
+6src\main\java\blarnix\configs\others\Notification.java (#2U
+voidRETURN_TYPE@
+6src\main\java\blarnix\configs\others\Notification.java (¡
+;blarnix.configs.others.Notification.setSeconds(int)!seconds	PARAMETER@
+6src\main\java\blarnix\configs\others\Notification.java (#"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> seconds*seconds2M
+intTYPE@
+6src\main\java\blarnix\configs\others\Notification.java (Ø
+0blarnix.configs.others.Notification.getMessage()METHOD@
+6src\main\java\blarnix\configs\others\Notification.java ("
+isFinalfalse"u
+declarationString`<mark class="modifier">public </mark>List&lt;String&gt; <mark class="method">getMessage</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<String>*
+getMessage2
+5blarnix.configs.others.Notification?message@7.22:7.29CALL@
+6src\main\java\blarnix\configs\others\Notification.java	 (2_
+java.util.ListRETURN_TYPE@
+6src\main\java\blarnix\configs\others\Notification.java (2j
+java.lang.StringRETURN_TYPE_ARGUMENT@
+6src\main\java\blarnix\configs\others\Notification.java (Ã
+Pblarnix.configs.others.Notification.setMessage(java.util.List<java.lang.String>)METHOD@
+6src\main\java\blarnix\configs\others\Notification.java ("
+isFinalfalse"†
+declarationStringä<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setMessage</mark>(List&lt;String&gt; message)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+setMessage2¢
+Xblarnix.configs.others.Notification.setMessage(java.util.List<java.lang.String>)!messageCALL@
+6src\main\java\blarnix\configs\others\Notification.java (2
+5blarnix.configs.others.Notification?message@7.22:7.29CALL@
+6src\main\java\blarnix\configs\others\Notification.java (2ß
+Xblarnix.configs.others.Notification.setMessage(java.util.List<java.lang.String>)!message	PARAMETER@
+6src\main\java\blarnix\configs\others\Notification.java% (,2U
+voidRETURN_TYPE@
+6src\main\java\blarnix\configs\others\Notification.java (¬
+Xblarnix.configs.others.Notification.setMessage(java.util.List<java.lang.String>)!message	PARAMETER@
+6src\main\java\blarnix\configs\others\Notification.java% (,"
+typeList<String>"
+isFinalfalse")
+declarationStringList<String> message*message2X
+java.util.ListTYPE@
+6src\main\java\blarnix\configs\others\Notification.java (2c
+java.lang.StringTYPE_ARGUMENT@
+6src\main\java\blarnix\configs\others\Notification.java (#®
+5blarnix.configs.others.Notification?seconds@6.13:6.20VARIABLE@
+6src\main\java\blarnix\configs\others\Notification.java ("
+isFinalfalse"
+typeint"Ö
+declarationStringp<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">seconds</mark>"
+isStaticfalse"
+accessprivate*seconds2M
+intTYPE@
+6src\main\java\blarnix\configs\others\Notification.java	 (ã
+5blarnix.configs.others.Notification?message@7.22:7.29VARIABLE@
+6src\main\java\blarnix\configs\others\Notification.java ("
+isFinalfalse"
+typeList<String>"p
+declarationString[<mark class="modifier">private </mark>List<String> <mark class="class-field">message</mark>"
+isStaticfalse"
+accessprivate*message2X
+java.util.ListTYPE@
+6src\main\java\blarnix\configs\others\Notification.java	 (2c
+java.lang.StringTYPE_ARGUMENT@
+6src\main\java\blarnix\configs\others\Notification.java (

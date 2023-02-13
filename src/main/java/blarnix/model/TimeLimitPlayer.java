@@ -2,10 +2,12 @@ package blarnix.model;
 
 import org.bukkit.boss.BossBar;
 import org.bukkit.entity.Player;
+import java.util.ArrayList;
 
-public class TimeLimitPlayer {
+public class TimeLimitPlayer {  // object to store player data, including UUID, name, player object, current time, total time, and whether the player has the information message enabled
 
-	private String uuid;
+	public ArrayList<TimeLimitPlayer> players = new ArrayList<TimeLimitPlayer>(); // Array of players
+    private String uuid;
 	private String name;
 	private Player player;
 	private int currentTime; // The amount of time the player has played in the current session

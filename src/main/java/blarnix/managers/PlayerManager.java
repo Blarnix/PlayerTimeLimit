@@ -19,7 +19,7 @@ import blarnix.utils.UtilsTime;
 
 public class PlayerManager {
 
-	private ArrayList<TimeLimitPlayer> players;
+    public ArrayList<TimeLimitPlayer> players;
 	private PlayerTimeLimit plugin;
 
 	public PlayerManager(PlayerTimeLimit plugin) {
@@ -52,6 +52,10 @@ public class PlayerManager {
 		}
 		return null;
 	}
+
+    public ArrayList<TimeLimitPlayer> getAllPlayers(){  // return the ArrayList of player objects, couldn't be simpler
+        return players;
+    }
 
 	public TimeLimitPlayer createPlayer(Player player) {
 		TimeLimitPlayer p = new TimeLimitPlayer(player.getUniqueId().toString(),player.getName());
@@ -89,7 +93,7 @@ public class PlayerManager {
 	}
 
 	public void resetPlayers() {
-		for(TimeLimitPlayer p : players) {
+		for(TimeLimitPlayer p : players) {  // iterate over a list of players in the P object
 			p.setCurrentTime(0);
 		}
 	}

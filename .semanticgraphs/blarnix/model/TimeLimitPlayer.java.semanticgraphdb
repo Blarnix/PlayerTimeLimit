@@ -1,0 +1,548 @@
+
+0src\main\java\blarnix\model\TimeLimitPlayer.java—
+blarnix.model.TimeLimitPlayerCLASS:
+0src\main\java\blarnix\model\TimeLimitPlayer.java ("(
+packageblarnix.model.TimeLimitPlayer"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"â
+declarationStringÛ<mark class="modifier">public </mark><mark class="modifier">class </mark>// object to store player data, including UUID, name, player object, current time, total time, and whether the player has the information message enabled
+TimeLimitPlayer"
+accesspublic*TimeLimitPlayer2ú
+Qblarnix.model.TimeLimitPlayer.TimeLimitPlayer(java.lang.String, java.lang.String)DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2r
+'blarnix.model.TimeLimitPlayer.getUuid()DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2Ç
+7blarnix.model.TimeLimitPlayer.setUuid(java.lang.String)DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2r
+'blarnix.model.TimeLimitPlayer.getName()DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2Ç
+7blarnix.model.TimeLimitPlayer.setName(java.lang.String)DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java" "(2y
+.blarnix.model.TimeLimitPlayer.getCurrentTime()DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java% %(2|
+1blarnix.model.TimeLimitPlayer.setCurrentTime(int)DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java( ((2w
+,blarnix.model.TimeLimitPlayer.getTotalTime()DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java+ +(2z
+/blarnix.model.TimeLimitPlayer.setTotalTime(int)DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java. .(2w
+,blarnix.model.TimeLimitPlayer.increaseTime()DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java1 1(2t
+)blarnix.model.TimeLimitPlayer.getPlayer()DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java5 5(2å
+Ablarnix.model.TimeLimitPlayer.setPlayer(org.bukkit.entity.Player)DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java8 8(2{
+0blarnix.model.TimeLimitPlayer.isMessageEnabled()DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java; ;( 2É
+8blarnix.model.TimeLimitPlayer.setMessageEnabled(boolean)DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java> >(2u
+*blarnix.model.TimeLimitPlayer.getBossBar()DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaB B(2å
+Ablarnix.model.TimeLimitPlayer.setBossBar(org.bukkit.boss.BossBar)DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaE E(2z
+/blarnix.model.TimeLimitPlayer.eliminarBossBar()DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaH H(2t
+)blarnix.model.TimeLimitPlayer.resetTime()DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaP P(2v
++blarnix.model.TimeLimitPlayer.takeTime(int)DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaT T(2u
+*blarnix.model.TimeLimitPlayer.addTime(int)DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaX X(2z
+/blarnix.model.TimeLimitPlayer?players@7.33:7.40DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java! ((2w
+,blarnix.model.TimeLimitPlayer?uuid@8.19:8.23DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2w
+,blarnix.model.TimeLimitPlayer?name@9.16:9.20DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java	 	(2{
+0blarnix.model.TimeLimitPlayer?player@10.16:10.22DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java
+ 
+(2Ä
+5blarnix.model.TimeLimitPlayer?currentTime@11.13:11.24DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2~
+3blarnix.model.TimeLimitPlayer?totalTime@12.13:12.22DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2É
+8blarnix.model.TimeLimitPlayer?messageEnabled@13.17:13.31DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2|
+1blarnix.model.TimeLimitPlayer?bossBar@15.17:15.24DECLARATION:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (â
+Qblarnix.model.TimeLimitPlayer.TimeLimitPlayer(java.lang.String, java.lang.String)CONSTRUCTOR:
+0src\main\java\blarnix\model\TimeLimitPlayer.java ("º
+declarationString¶<mark class="modifier">public </mark><mark class="method">TimeLimitPlayer</mark>(String uuid<mark class="modifier"><mark class="modifier">,</mark></mark> String name)*TimeLimitPlayer2]
+java.lang.Object.Object()CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2ö
+Vblarnix.model.TimeLimitPlayer.TimeLimitPlayer(java.lang.String, java.lang.String)!uuidCALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2ö
+Vblarnix.model.TimeLimitPlayer.TimeLimitPlayer(java.lang.String, java.lang.String)!nameCALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2p
+,blarnix.model.TimeLimitPlayer?uuid@8.19:8.23CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2p
+,blarnix.model.TimeLimitPlayer?name@9.16:9.20CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2y
+5blarnix.model.TimeLimitPlayer?currentTime@11.13:11.24CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2w
+3blarnix.model.TimeLimitPlayer?totalTime@12.13:12.22CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2|
+8blarnix.model.TimeLimitPlayer?messageEnabled@13.17:13.31CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2ü
+Vblarnix.model.TimeLimitPlayer.TimeLimitPlayer(java.lang.String, java.lang.String)!uuid	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (#2ü
+Vblarnix.model.TimeLimitPlayer.TimeLimitPlayer(java.lang.String, java.lang.String)!name	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java, (02h
+blarnix.model.TimeLimitPlayerRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (ø
+Vblarnix.model.TimeLimitPlayer.TimeLimitPlayer(java.lang.String, java.lang.String)!uuid	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (#"
+typeString"
+isFinalfalse" 
+declarationStringString uuid*uuid2T
+java.lang.StringTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (ø
+Vblarnix.model.TimeLimitPlayer.TimeLimitPlayer(java.lang.String, java.lang.String)!name	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java, (0"
+typeString"
+isFinalfalse" 
+declarationStringString name*name2T
+java.lang.StringTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java% (+â
+'blarnix.model.TimeLimitPlayer.getUuid()METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.java ("
+isFinalfalse"f
+declarationStringQ<mark class="modifier">public </mark>String <mark class="method">getUuid</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getUuid2p
+,blarnix.model.TimeLimitPlayer?uuid@8.19:8.23CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java	 (2[
+java.lang.StringRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (æ
+7blarnix.model.TimeLimitPlayer.setUuid(java.lang.String)METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.java ("
+isFinalfalse"ç
+declarationStringx<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setUuid</mark>(String uuid)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setUuid2Ä
+<blarnix.model.TimeLimitPlayer.setUuid(java.lang.String)!uuidCALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2p
+,blarnix.model.TimeLimitPlayer?uuid@8.19:8.23CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (2Ö
+<blarnix.model.TimeLimitPlayer.setUuid(java.lang.String)!uuid	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java ( 2O
+voidRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (•
+<blarnix.model.TimeLimitPlayer.setUuid(java.lang.String)!uuid	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java ( "
+typeString"
+isFinalfalse" 
+declarationStringString uuid*uuid2T
+java.lang.StringTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (â
+'blarnix.model.TimeLimitPlayer.getName()METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.java ("
+isFinalfalse"f
+declarationStringQ<mark class="modifier">public </mark>String <mark class="method">getName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getName2p
+,blarnix.model.TimeLimitPlayer?name@9.16:9.20CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java 	  (2[
+java.lang.StringRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (æ
+7blarnix.model.TimeLimitPlayer.setName(java.lang.String)METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.java" "("
+isFinalfalse"ç
+declarationStringx<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setName</mark>(String name)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setName2Ä
+<blarnix.model.TimeLimitPlayer.setName(java.lang.String)!nameCALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java# #(2p
+,blarnix.model.TimeLimitPlayer?name@9.16:9.20CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java# #(2Ö
+<blarnix.model.TimeLimitPlayer.setName(java.lang.String)!name	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java" "( 2O
+voidRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java" "(•
+<blarnix.model.TimeLimitPlayer.setName(java.lang.String)!name	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java" "( "
+typeString"
+isFinalfalse" 
+declarationStringString name*name2T
+java.lang.StringTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java" "(≥
+.blarnix.model.TimeLimitPlayer.getCurrentTime()METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.java% %("
+isFinalfalse"à
+declarationStrings<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getCurrentTime</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getCurrentTime2y
+5blarnix.model.TimeLimitPlayer?currentTime@11.13:11.24CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java&	 &(2N
+intRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java% %(Ù
+1blarnix.model.TimeLimitPlayer.setCurrentTime(int)METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.java( (("
+isFinalfalse"∑
+declarationString°<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setCurrentTime</mark>(<mark class="modifier">int</mark> currentTime)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setCurrentTime2Å
+=blarnix.model.TimeLimitPlayer.setCurrentTime(int)!currentTimeCALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java) )( 2y
+5blarnix.model.TimeLimitPlayer?currentTime@11.13:11.24CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java) )(2Ü
+=blarnix.model.TimeLimitPlayer.setCurrentTime(int)!currentTime	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java(  ((+2O
+voidRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java( ((ø
+=blarnix.model.TimeLimitPlayer.setCurrentTime(int)!currentTime	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java(  ((+"
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> currentTime*currentTime2G
+intTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java( ((´
+,blarnix.model.TimeLimitPlayer.getTotalTime()METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.java+ +("
+isFinalfalse"Ü
+declarationStringq<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getTotalTime</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getTotalTime2w
+3blarnix.model.TimeLimitPlayer?totalTime@12.13:12.22CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java,	 ,(2N
+intRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java+ +(·
+/blarnix.model.TimeLimitPlayer.setTotalTime(int)METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.java. .("
+isFinalfalse"≥
+declarationStringù<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setTotalTime</mark>(<mark class="modifier">int</mark> totalTime)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setTotalTime2}
+9blarnix.model.TimeLimitPlayer.setTotalTime(int)!totalTimeCALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java/ /(2w
+3blarnix.model.TimeLimitPlayer?totalTime@12.13:12.22CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java/ /(2Ç
+9blarnix.model.TimeLimitPlayer.setTotalTime(int)!totalTime	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java. .('2O
+voidRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java. .(∑
+9blarnix.model.TimeLimitPlayer.setTotalTime(int)!totalTime	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java. .('"
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> totalTime*	totalTime2G
+intTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java. .(©
+,blarnix.model.TimeLimitPlayer.increaseTime()METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.java1 1("
+isFinalfalse"á
+declarationStringr<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">increaseTime</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*increaseTime2y
+5blarnix.model.TimeLimitPlayer?currentTime@11.13:11.24CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java2 2(2w
+3blarnix.model.TimeLimitPlayer?totalTime@12.13:12.22CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java3 3(2O
+voidRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java1 1(õ
+)blarnix.model.TimeLimitPlayer.getPlayer()METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.java5 5("
+isFinalfalse"h
+declarationStringS<mark class="modifier">public </mark>Player <mark class="method">getPlayer</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typePlayer*	getPlayer2t
+0blarnix.model.TimeLimitPlayer?player@10.16:10.22CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java6	 6(2c
+org.bukkit.entity.PlayerRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java5 5(Í
+Ablarnix.model.TimeLimitPlayer.setPlayer(org.bukkit.entity.Player)METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.java8 8("
+isFinalfalse"ë
+declarationString|<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setPlayer</mark>(Player player)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	setPlayer2å
+Hblarnix.model.TimeLimitPlayer.setPlayer(org.bukkit.entity.Player)!playerCALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java9 9(2t
+0blarnix.model.TimeLimitPlayer?player@10.16:10.22CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java9 9(2ë
+Hblarnix.model.TimeLimitPlayer.setPlayer(org.bukkit.entity.Player)!player	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java8 8($2O
+voidRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java8 8(Ω
+Hblarnix.model.TimeLimitPlayer.setPlayer(org.bukkit.entity.Player)!player	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java8 8($"
+typePlayer"
+isFinalfalse""
+declarationStringPlayer player*player2\
+org.bukkit.entity.PlayerTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java8 8(»
+0blarnix.model.TimeLimitPlayer.isMessageEnabled()METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.java; ;( "
+isFinalfalse"é
+declarationStringy<mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isMessageEnabled</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isMessageEnabled2|
+8blarnix.model.TimeLimitPlayer?messageEnabled@13.17:13.31CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java<	 <(2R
+booleanRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java; ;(ü
+8blarnix.model.TimeLimitPlayer.setMessageEnabled(boolean)METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.java> >("
+isFinalfalse"¡
+declarationString´<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setMessageEnabled</mark>(<mark class="modifier">boolean</mark> messageEnabled)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setMessageEnabled2ã
+Gblarnix.model.TimeLimitPlayer.setMessageEnabled(boolean)!messageEnabledCALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java? ?(&2|
+8blarnix.model.TimeLimitPlayer?messageEnabled@13.17:13.31CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.java? ?(2ê
+Gblarnix.model.TimeLimitPlayer.setMessageEnabled(boolean)!messageEnabled	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java>' >(52O
+voidRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java> >(€
+Gblarnix.model.TimeLimitPlayer.setMessageEnabled(boolean)!messageEnabled	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.java>' >(5"
+typeboolean"
+isFinalfalse"I
+declarationString4<mark class="modifier">boolean</mark> messageEnabled*messageEnabled2K
+booleanTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java> >(&†
+*blarnix.model.TimeLimitPlayer.getBossBar()METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaB B("
+isFinalfalse"j
+declarationStringU<mark class="modifier">public </mark>BossBar <mark class="method">getBossBar</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeBossBar*
+getBossBar2u
+1blarnix.model.TimeLimitPlayer?bossBar@15.17:15.24CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaC	 C(2b
+org.bukkit.boss.BossBarRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaB B(Ò
+Ablarnix.model.TimeLimitPlayer.setBossBar(org.bukkit.boss.BossBar)METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaE E("
+isFinalfalse"î
+declarationString<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setBossBar</mark>(BossBar bossBar)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+setBossBar2ç
+Iblarnix.model.TimeLimitPlayer.setBossBar(org.bukkit.boss.BossBar)!bossBarCALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaF F(2u
+1blarnix.model.TimeLimitPlayer?bossBar@15.17:15.24CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaF F(2í
+Iblarnix.model.TimeLimitPlayer.setBossBar(org.bukkit.boss.BossBar)!bossBar	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaE  E('2O
+voidRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaE E(¡
+Iblarnix.model.TimeLimitPlayer.setBossBar(org.bukkit.boss.BossBar)!bossBar	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaE  E('"
+typeBossBar"
+isFinalfalse"$
+declarationStringBossBar bossBar*bossBar2[
+org.bukkit.boss.BossBarTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaE E(ö
+/blarnix.model.TimeLimitPlayer.eliminarBossBar()METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaH H("
+isFinalfalse"ä
+declarationStringu<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">eliminarBossBar</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*eliminarBossBar2u
+1blarnix.model.TimeLimitPlayer?bossBar@15.17:15.24CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaI I(2u
+1blarnix.model.TimeLimitPlayer?bossBar@15.17:15.24CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaJ J(
+2u
+1blarnix.model.TimeLimitPlayer?bossBar@15.17:15.24CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaK K(
+2u
+1blarnix.model.TimeLimitPlayer?bossBar@15.17:15.24CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaL L(
+2O
+voidRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaH H(£
+)blarnix.model.TimeLimitPlayer.resetTime()METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaP P("
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">resetTime</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	resetTime2u
+1blarnix.model.TimeLimitPlayer.setCurrentTime(int)CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaQ Q(2O
+voidRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaP P(∫
++blarnix.model.TimeLimitPlayer.takeTime(int)METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaT T("
+isFinalfalse"™
+declarationStringî<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">takeTime</mark>(<mark class="modifier">int</mark> time)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*takeTime2y
+5blarnix.model.TimeLimitPlayer?currentTime@11.13:11.24CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaU U(2y
+5blarnix.model.TimeLimitPlayer?currentTime@11.13:11.24CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaU U(2t
+0blarnix.model.TimeLimitPlayer.takeTime(int)!timeCALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaU U( 2y
+0blarnix.model.TimeLimitPlayer.takeTime(int)!time	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaT T(2O
+voidRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaT T(§
+0blarnix.model.TimeLimitPlayer.takeTime(int)!time	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaT T("
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> time*time2G
+intTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaT T(µ
+*blarnix.model.TimeLimitPlayer.addTime(int)METHOD:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaX X("
+isFinalfalse"©
+declarationStringì<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addTime</mark>(<mark class="modifier">int</mark> time)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addTime2y
+5blarnix.model.TimeLimitPlayer?currentTime@11.13:11.24CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaY Y(2y
+5blarnix.model.TimeLimitPlayer?currentTime@11.13:11.24CALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaY Y(2s
+/blarnix.model.TimeLimitPlayer.addTime(int)!timeCALL:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaY Y( 2x
+/blarnix.model.TimeLimitPlayer.addTime(int)!time	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaX X(2O
+voidRETURN_TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaX X(£
+/blarnix.model.TimeLimitPlayer.addTime(int)!time	PARAMETER:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaX X("
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> time*time2G
+intTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.javaX X(—
+/blarnix.model.TimeLimitPlayer?players@7.33:7.40VARIABLE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java! (("
+isFinalfalse"
+typeTimeLimitPlayer"ö
+declarationStringÑ<mark class="modifier">public </mark><mark class="modifier">static </mark>TimeLimitPlayer[] <mark class="class-field">players</mark>"
+isStatictrue"
+accesspublic*players2c
+blarnix.model.TimeLimitPlayer[]TYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java ( Å
+,blarnix.model.TimeLimitPlayer?uuid@8.19:8.23VARIABLE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java ("
+isFinalfalse"
+typeString"g
+declarationStringR<mark class="modifier">private </mark>String <mark class="class-field">uuid</mark>"
+isStaticfalse"
+accessprivate*uuid2T
+java.lang.StringTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java (Å
+,blarnix.model.TimeLimitPlayer?name@9.16:9.20VARIABLE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java	 	("
+isFinalfalse"
+typeString"g
+declarationStringR<mark class="modifier">private </mark>String <mark class="class-field">name</mark>"
+isStaticfalse"
+accessprivate*name2T
+java.lang.StringTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java		 	(ë
+0blarnix.model.TimeLimitPlayer?player@10.16:10.22VARIABLE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java
+ 
+("
+isFinalfalse"
+typePlayer"i
+declarationStringT<mark class="modifier">private </mark>Player <mark class="class-field">player</mark>"
+isStaticfalse"
+accessprivate*player2\
+org.bukkit.entity.PlayerTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java
+	 
+(§
+5blarnix.model.TimeLimitPlayer?currentTime@11.13:11.24VARIABLE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java ("
+isFinalfalse"
+typeint"â
+declarationStringt<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">currentTime</mark>"
+isStaticfalse"
+accessprivate*currentTime2G
+intTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java	 (û
+3blarnix.model.TimeLimitPlayer?totalTime@12.13:12.22VARIABLE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java ("
+isFinalfalse"
+typeint"á
+declarationStringr<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">totalTime</mark>"
+isStaticfalse"
+accessprivate*	totalTime2G
+intTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java	 (π
+8blarnix.model.TimeLimitPlayer?messageEnabled@13.17:13.31VARIABLE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java ("
+isFinalfalse"
+typeboolean"ê
+declarationString{<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">messageEnabled</mark>"
+isStaticfalse"
+accessprivate*messageEnabled2K
+booleanTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java	 (ï
+1blarnix.model.TimeLimitPlayer?bossBar@15.17:15.24VARIABLE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java ("
+isFinalfalse"
+typeBossBar"k
+declarationStringV<mark class="modifier">private </mark>BossBar <mark class="class-field">bossBar</mark>"
+isStaticfalse"
+accessprivate*bossBar2[
+org.bukkit.boss.BossBarTYPE:
+0src\main\java\blarnix\model\TimeLimitPlayer.java	 (

@@ -2,6 +2,8 @@ package blarnix.configs;
 
 import blarnix.PlayerTimeLimit;
 
+// TODO: Add comments
+// TODO: Add a daily time limit scheduler
 public class ConfigsManager {
 
 	private PlayerConfigsManager playerConfigsManager;

@@ -1,0 +1,642 @@
+
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaﬂv
+-blarnix.libs.centeredmessages.DefaultFontInfoENUMJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("G
+declarationString2<mark class="modifier">enum </mark>DefaultFontInfo*DefaultFontInfo2£
+Hblarnix.libs.centeredmessages.DefaultFontInfo.DefaultFontInfo(char, int)DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javah h(2ó
+<blarnix.libs.centeredmessages.DefaultFontInfo.getCharacter()DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javam m(2î
+9blarnix.libs.centeredmessages.DefaultFontInfo.getLength()DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaq q(2ò
+=blarnix.libs.centeredmessages.DefaultFontInfo.getBoldLength()DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javau u(2°
+Fblarnix.libs.centeredmessages.DefaultFontInfo.getDefaultFontInfo(char)DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaz" z(42†
+Eblarnix.libs.centeredmessages.DefaultFontInfo?character@101.17:101.26DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javae e(2ù
+Bblarnix.libs.centeredmessages.DefaultFontInfo?length@102.16:102.22DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaf f(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?ADECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?aDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?BDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?bDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?CDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?cDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java	 	(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?DDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java
+ 
+(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?dDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?EDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?eDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?FDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?fDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?GDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?gDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?HDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?hDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?IDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?iDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?JDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?jDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?KDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?kDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?LDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?lDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?MDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?mDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?NDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?nDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?ODECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java   (2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?oDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java! !(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?PDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java" "(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?pDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java# #(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?QDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java$ $(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?qDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java% %(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?RDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java& &(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?rDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java' '(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?SDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java( ((2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?sDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java) )(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?TDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java* *(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?tDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java+ +(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?UDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java, ,(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?uDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java- -(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?VDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java. .(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?vDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java/ /(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?WDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java0 0(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?wDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java1 1(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?XDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java2 2(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?xDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java3 3(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?YDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java4 4(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?yDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java5 5(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?ZDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java6 6(2ä
+/blarnix.libs.centeredmessages.DefaultFontInfo?zDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java7 7(2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_1DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java8 8(	2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_2DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java9 9(	2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_3DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java: :(	2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_4DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java; ;(	2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_5DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java< <(	2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_6DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java= =(	2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_7DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java> >(	2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_8DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java? ?(	2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_9DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java@ @(	2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_0DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaA A(	2ö
+?blarnix.libs.centeredmessages.DefaultFontInfo?EXCLAMATION_POINTDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaB B(2í
+7blarnix.libs.centeredmessages.DefaultFontInfo?AT_SYMBOLDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaC C(2ë
+6blarnix.libs.centeredmessages.DefaultFontInfo?NUM_SIGNDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaD D(2î
+9blarnix.libs.centeredmessages.DefaultFontInfo?DOLLAR_SIGNDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaE E(2ê
+5blarnix.libs.centeredmessages.DefaultFontInfo?PERCENTDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaF F(2ë
+6blarnix.libs.centeredmessages.DefaultFontInfo?UP_ARROWDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaG G(2í
+7blarnix.libs.centeredmessages.DefaultFontInfo?AMPERSANDDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaH H(2ë
+6blarnix.libs.centeredmessages.DefaultFontInfo?ASTERISKDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaI I(2ô
+>blarnix.libs.centeredmessages.DefaultFontInfo?LEFT_PARENTHESISDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaJ J(2ö
+?blarnix.libs.centeredmessages.DefaultFontInfo?RIGHT_PERENTHESISDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaK K(2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?MINUSDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaL L(	2ì
+8blarnix.libs.centeredmessages.DefaultFontInfo?UNDERSCOREDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaM M(2í
+7blarnix.libs.centeredmessages.DefaultFontInfo?PLUS_SIGNDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaN N(2î
+9blarnix.libs.centeredmessages.DefaultFontInfo?EQUALS_SIGNDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaO O(2ò
+=blarnix.libs.centeredmessages.DefaultFontInfo?LEFT_CURL_BRACEDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaP P(2ô
+>blarnix.libs.centeredmessages.DefaultFontInfo?RIGHT_CURL_BRACEDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaQ Q(2ï
+:blarnix.libs.centeredmessages.DefaultFontInfo?LEFT_BRACKETDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaR R(2ñ
+;blarnix.libs.centeredmessages.DefaultFontInfo?RIGHT_BRACKETDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaS S(2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?COLONDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaT T(	2ì
+8blarnix.libs.centeredmessages.DefaultFontInfo?SEMI_COLONDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaU U(2ï
+:blarnix.libs.centeredmessages.DefaultFontInfo?DOUBLE_QUOTEDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaV V(2ï
+:blarnix.libs.centeredmessages.DefaultFontInfo?SINGLE_QUOTEDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaW W(2ì
+8blarnix.libs.centeredmessages.DefaultFontInfo?LEFT_ARROWDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaX X(2î
+9blarnix.libs.centeredmessages.DefaultFontInfo?RIGHT_ARROWDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaY Y(2ñ
+;blarnix.libs.centeredmessages.DefaultFontInfo?QUESTION_MARKDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaZ Z(2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?SLASHDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java[ [(	2ì
+8blarnix.libs.centeredmessages.DefaultFontInfo?BACK_SLASHDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java\ \(2ç
+2blarnix.libs.centeredmessages.DefaultFontInfo?LINEDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java] ](2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?TILDEDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java^ ^(	2ç
+2blarnix.libs.centeredmessages.DefaultFontInfo?TICKDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java_ _(2è
+4blarnix.libs.centeredmessages.DefaultFontInfo?PERIODDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java` `(
+2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?COMMADECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaa a(	2é
+3blarnix.libs.centeredmessages.DefaultFontInfo?SPACEDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javab b(	2ê
+5blarnix.libs.centeredmessages.DefaultFontInfo?DEFAULTDECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javac c(ï
+/blarnix.libs.centeredmessages.DefaultFontInfo?AVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*Aï
+/blarnix.libs.centeredmessages.DefaultFontInfo?aVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*aï
+/blarnix.libs.centeredmessages.DefaultFontInfo?BVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*Bï
+/blarnix.libs.centeredmessages.DefaultFontInfo?bVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*bï
+/blarnix.libs.centeredmessages.DefaultFontInfo?CVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*Cï
+/blarnix.libs.centeredmessages.DefaultFontInfo?cVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java	 	("
+enumtrue*cï
+/blarnix.libs.centeredmessages.DefaultFontInfo?DVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java
+ 
+("
+enumtrue*Dï
+/blarnix.libs.centeredmessages.DefaultFontInfo?dVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*dï
+/blarnix.libs.centeredmessages.DefaultFontInfo?EVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*Eï
+/blarnix.libs.centeredmessages.DefaultFontInfo?eVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*eï
+/blarnix.libs.centeredmessages.DefaultFontInfo?FVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*Fï
+/blarnix.libs.centeredmessages.DefaultFontInfo?fVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*fï
+/blarnix.libs.centeredmessages.DefaultFontInfo?GVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*Gï
+/blarnix.libs.centeredmessages.DefaultFontInfo?gVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*gï
+/blarnix.libs.centeredmessages.DefaultFontInfo?HVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*Hï
+/blarnix.libs.centeredmessages.DefaultFontInfo?hVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*hï
+/blarnix.libs.centeredmessages.DefaultFontInfo?IVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*Iï
+/blarnix.libs.centeredmessages.DefaultFontInfo?iVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*iï
+/blarnix.libs.centeredmessages.DefaultFontInfo?JVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*Jï
+/blarnix.libs.centeredmessages.DefaultFontInfo?jVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*jï
+/blarnix.libs.centeredmessages.DefaultFontInfo?KVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*Kï
+/blarnix.libs.centeredmessages.DefaultFontInfo?kVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*kï
+/blarnix.libs.centeredmessages.DefaultFontInfo?LVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*Lï
+/blarnix.libs.centeredmessages.DefaultFontInfo?lVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*lï
+/blarnix.libs.centeredmessages.DefaultFontInfo?MVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*Mï
+/blarnix.libs.centeredmessages.DefaultFontInfo?mVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*mï
+/blarnix.libs.centeredmessages.DefaultFontInfo?NVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*Nï
+/blarnix.libs.centeredmessages.DefaultFontInfo?nVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java ("
+enumtrue*nï
+/blarnix.libs.centeredmessages.DefaultFontInfo?OVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java   ("
+enumtrue*Oï
+/blarnix.libs.centeredmessages.DefaultFontInfo?oVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java! !("
+enumtrue*oï
+/blarnix.libs.centeredmessages.DefaultFontInfo?PVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java" "("
+enumtrue*Pï
+/blarnix.libs.centeredmessages.DefaultFontInfo?pVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java# #("
+enumtrue*pï
+/blarnix.libs.centeredmessages.DefaultFontInfo?QVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java$ $("
+enumtrue*Qï
+/blarnix.libs.centeredmessages.DefaultFontInfo?qVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java% %("
+enumtrue*qï
+/blarnix.libs.centeredmessages.DefaultFontInfo?RVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java& &("
+enumtrue*Rï
+/blarnix.libs.centeredmessages.DefaultFontInfo?rVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java' '("
+enumtrue*rï
+/blarnix.libs.centeredmessages.DefaultFontInfo?SVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java( (("
+enumtrue*Sï
+/blarnix.libs.centeredmessages.DefaultFontInfo?sVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java) )("
+enumtrue*sï
+/blarnix.libs.centeredmessages.DefaultFontInfo?TVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java* *("
+enumtrue*Tï
+/blarnix.libs.centeredmessages.DefaultFontInfo?tVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java+ +("
+enumtrue*tï
+/blarnix.libs.centeredmessages.DefaultFontInfo?UVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java, ,("
+enumtrue*Uï
+/blarnix.libs.centeredmessages.DefaultFontInfo?uVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java- -("
+enumtrue*uï
+/blarnix.libs.centeredmessages.DefaultFontInfo?VVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java. .("
+enumtrue*Vï
+/blarnix.libs.centeredmessages.DefaultFontInfo?vVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java/ /("
+enumtrue*vï
+/blarnix.libs.centeredmessages.DefaultFontInfo?WVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java0 0("
+enumtrue*Wï
+/blarnix.libs.centeredmessages.DefaultFontInfo?wVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java1 1("
+enumtrue*wï
+/blarnix.libs.centeredmessages.DefaultFontInfo?XVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java2 2("
+enumtrue*Xï
+/blarnix.libs.centeredmessages.DefaultFontInfo?xVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java3 3("
+enumtrue*xï
+/blarnix.libs.centeredmessages.DefaultFontInfo?YVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java4 4("
+enumtrue*Yï
+/blarnix.libs.centeredmessages.DefaultFontInfo?yVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java5 5("
+enumtrue*yï
+/blarnix.libs.centeredmessages.DefaultFontInfo?ZVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java6 6("
+enumtrue*Zï
+/blarnix.libs.centeredmessages.DefaultFontInfo?zVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java7 7("
+enumtrue*zù
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_1VALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java8 8(	"
+enumtrue*NUM_1ù
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_2VALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java9 9(	"
+enumtrue*NUM_2ù
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_3VALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java: :(	"
+enumtrue*NUM_3ù
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_4VALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java; ;(	"
+enumtrue*NUM_4ù
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_5VALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java< <(	"
+enumtrue*NUM_5ù
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_6VALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java= =(	"
+enumtrue*NUM_6ù
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_7VALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java> >(	"
+enumtrue*NUM_7ù
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_8VALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java? ?(	"
+enumtrue*NUM_8ù
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_9VALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java@ @(	"
+enumtrue*NUM_9ù
+3blarnix.libs.centeredmessages.DefaultFontInfo?NUM_0VALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaA A(	"
+enumtrue*NUM_0µ
+?blarnix.libs.centeredmessages.DefaultFontInfo?EXCLAMATION_POINTVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaB B("
+enumtrue*EXCLAMATION_POINT•
+7blarnix.libs.centeredmessages.DefaultFontInfo?AT_SYMBOLVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaC C("
+enumtrue*	AT_SYMBOL£
+6blarnix.libs.centeredmessages.DefaultFontInfo?NUM_SIGNVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaD D("
+enumtrue*NUM_SIGN©
+9blarnix.libs.centeredmessages.DefaultFontInfo?DOLLAR_SIGNVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaE E("
+enumtrue*DOLLAR_SIGN°
+5blarnix.libs.centeredmessages.DefaultFontInfo?PERCENTVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaF F("
+enumtrue*PERCENT£
+6blarnix.libs.centeredmessages.DefaultFontInfo?UP_ARROWVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaG G("
+enumtrue*UP_ARROW•
+7blarnix.libs.centeredmessages.DefaultFontInfo?AMPERSANDVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaH H("
+enumtrue*	AMPERSAND£
+6blarnix.libs.centeredmessages.DefaultFontInfo?ASTERISKVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaI I("
+enumtrue*ASTERISK≥
+>blarnix.libs.centeredmessages.DefaultFontInfo?LEFT_PARENTHESISVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaJ J("
+enumtrue*LEFT_PARENTHESISµ
+?blarnix.libs.centeredmessages.DefaultFontInfo?RIGHT_PERENTHESISVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaK K("
+enumtrue*RIGHT_PERENTHESISù
+3blarnix.libs.centeredmessages.DefaultFontInfo?MINUSVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaL L(	"
+enumtrue*MINUSß
+8blarnix.libs.centeredmessages.DefaultFontInfo?UNDERSCOREVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaM M("
+enumtrue*
+UNDERSCORE•
+7blarnix.libs.centeredmessages.DefaultFontInfo?PLUS_SIGNVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaN N("
+enumtrue*	PLUS_SIGN©
+9blarnix.libs.centeredmessages.DefaultFontInfo?EQUALS_SIGNVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaO O("
+enumtrue*EQUALS_SIGN±
+=blarnix.libs.centeredmessages.DefaultFontInfo?LEFT_CURL_BRACEVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaP P("
+enumtrue*LEFT_CURL_BRACE≥
+>blarnix.libs.centeredmessages.DefaultFontInfo?RIGHT_CURL_BRACEVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaQ Q("
+enumtrue*RIGHT_CURL_BRACE´
+:blarnix.libs.centeredmessages.DefaultFontInfo?LEFT_BRACKETVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaR R("
+enumtrue*LEFT_BRACKET≠
+;blarnix.libs.centeredmessages.DefaultFontInfo?RIGHT_BRACKETVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaS S("
+enumtrue*RIGHT_BRACKETù
+3blarnix.libs.centeredmessages.DefaultFontInfo?COLONVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaT T(	"
+enumtrue*COLONß
+8blarnix.libs.centeredmessages.DefaultFontInfo?SEMI_COLONVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaU U("
+enumtrue*
+SEMI_COLON´
+:blarnix.libs.centeredmessages.DefaultFontInfo?DOUBLE_QUOTEVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaV V("
+enumtrue*DOUBLE_QUOTE´
+:blarnix.libs.centeredmessages.DefaultFontInfo?SINGLE_QUOTEVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaW W("
+enumtrue*SINGLE_QUOTEß
+8blarnix.libs.centeredmessages.DefaultFontInfo?LEFT_ARROWVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaX X("
+enumtrue*
+LEFT_ARROW©
+9blarnix.libs.centeredmessages.DefaultFontInfo?RIGHT_ARROWVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaY Y("
+enumtrue*RIGHT_ARROW≠
+;blarnix.libs.centeredmessages.DefaultFontInfo?QUESTION_MARKVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaZ Z("
+enumtrue*QUESTION_MARKù
+3blarnix.libs.centeredmessages.DefaultFontInfo?SLASHVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java[ [(	"
+enumtrue*SLASHß
+8blarnix.libs.centeredmessages.DefaultFontInfo?BACK_SLASHVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java\ \("
+enumtrue*
+BACK_SLASHõ
+2blarnix.libs.centeredmessages.DefaultFontInfo?LINEVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java] ]("
+enumtrue*LINEù
+3blarnix.libs.centeredmessages.DefaultFontInfo?TILDEVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java^ ^(	"
+enumtrue*TILDEõ
+2blarnix.libs.centeredmessages.DefaultFontInfo?TICKVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java_ _("
+enumtrue*TICKü
+4blarnix.libs.centeredmessages.DefaultFontInfo?PERIODVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java` `(
+"
+enumtrue*PERIODù
+3blarnix.libs.centeredmessages.DefaultFontInfo?COMMAVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaa a(	"
+enumtrue*COMMAù
+3blarnix.libs.centeredmessages.DefaultFontInfo?SPACEVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javab b(	"
+enumtrue*SPACE°
+5blarnix.libs.centeredmessages.DefaultFontInfo?DEFAULTVALUEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javac c("
+enumtrue*DEFAULTı
+Hblarnix.libs.centeredmessages.DefaultFontInfo.DefaultFontInfo(char, int)CONSTRUCTORJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javah h("÷
+declarationString¿<mark class="modifier"> </mark><mark class="method">DefaultFontInfo</mark>(char character<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> length)*DefaultFontInfo2¶
+Rblarnix.libs.centeredmessages.DefaultFontInfo.DefaultFontInfo(char, int)!characterCALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javai i(&2£
+Oblarnix.libs.centeredmessages.DefaultFontInfo.DefaultFontInfo(char, int)!lengthCALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaj j( 2ô
+Eblarnix.libs.centeredmessages.DefaultFontInfo?character@101.17:101.26CALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javai i(2ñ
+Bblarnix.libs.centeredmessages.DefaultFontInfo?length@102.16:102.22CALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaj j(2´
+Rblarnix.libs.centeredmessages.DefaultFontInfo.DefaultFontInfo(char, int)!character	PARAMETERJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javah h("2®
+Oblarnix.libs.centeredmessages.DefaultFontInfo.DefaultFontInfo(char, int)!length	PARAMETERJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javah( h(.2à
+-blarnix.libs.centeredmessages.DefaultFontInfoRETURN_TYPEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javah h(’
+Rblarnix.libs.centeredmessages.DefaultFontInfo.DefaultFontInfo(char, int)!character	PARAMETERJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javah h(""
+typechar"
+isFinalfalse"#
+declarationStringchar character*	character2X
+charTYPEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javah h(Á
+Oblarnix.libs.centeredmessages.DefaultFontInfo.DefaultFontInfo(char, int)!length	PARAMETERJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javah( h(."
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> length*length2W
+intTYPEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javah$ h('‚
+<blarnix.libs.centeredmessages.DefaultFontInfo.getCharacter()METHODJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javam m("
+isFinalfalse"i
+declarationStringT<mark class="modifier">public </mark>char <mark class="method">getCharacter</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typechar*getCharacter2ô
+Eblarnix.libs.centeredmessages.DefaultFontInfo?character@101.17:101.26CALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javan n(!2_
+charRETURN_TYPEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javam m(Ú
+9blarnix.libs.centeredmessages.DefaultFontInfo.getLength()METHODJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaq q("
+isFinalfalse"É
+declarationStringn<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getLength</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*	getLength2ñ
+Bblarnix.libs.centeredmessages.DefaultFontInfo?length@102.16:102.22CALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javar r(2^
+intRETURN_TYPEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaq q(ò
+=blarnix.libs.centeredmessages.DefaultFontInfo.getBoldLength()METHODJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javau u("
+isFinalfalse"á
+declarationStringr<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getBoldLength</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getBoldLength2ç
+9blarnix.libs.centeredmessages.DefaultFontInfo.getLength()CALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javav: v(C2á
+3blarnix.libs.centeredmessages.DefaultFontInfo?SPACECALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javav' v(,2ñ
+Bblarnix.libs.centeredmessages.DefaultFontInfo?length@102.16:102.22CALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaw w(2^
+intRETURN_TYPEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javau u(À
+Fblarnix.libs.centeredmessages.DefaultFontInfo.getDefaultFontInfo(char)METHODJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaz" z(4"
+isFinalfalse"¶
+declarationStringê<mark class="modifier">public </mark><mark class="modifier">static </mark>DefaultFontInfo <mark class="method">getDefaultFontInfo</mark>(char c)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeDefaultFontInfo*getDefaultFontInfo2ä
+6blarnix.libs.centeredmessages.DefaultFontInfo.values()CALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java{6 {(<2ê
+<blarnix.libs.centeredmessages.DefaultFontInfo.getCharacter()CALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java| |('2¨
+Xblarnix.libs.centeredmessages.DefaultFontInfo.getDefaultFontInfo(char)?dFI@123.32:123.35CALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java| |(2ú
+Hblarnix.libs.centeredmessages.DefaultFontInfo.getDefaultFontInfo(char)!cCALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java|- |(.2¨
+Xblarnix.libs.centeredmessages.DefaultFontInfo.getDefaultFontInfo(char)?dFI@123.32:123.35CALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java|7 |(:2â
+5blarnix.libs.centeredmessages.DefaultFontInfo?DEFAULTCALLJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java~# ~(*2°
+Hblarnix.libs.centeredmessages.DefaultFontInfo.getDefaultFontInfo(char)!c	PARAMETERJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaz: z(;2≥
+Xblarnix.libs.centeredmessages.DefaultFontInfo.getDefaultFontInfo(char)?dFI@123.32:123.35DECLARATIONJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java{  {(#2à
+-blarnix.libs.centeredmessages.DefaultFontInfoRETURN_TYPEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaz z(!Œ
+Xblarnix.libs.centeredmessages.DefaultFontInfo.getDefaultFontInfo(char)?dFI@123.32:123.35VARIABLEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java{  {(#"
+typeDefaultFontInfo"
+isFinalfalse"h
+declarationStringS<mark class="modifier"> </mark>DefaultFontInfo <mark class="class-field">dFI</mark>*dFI2Å
+-blarnix.libs.centeredmessages.DefaultFontInfoTYPEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.java{ {(ª
+Hblarnix.libs.centeredmessages.DefaultFontInfo.getDefaultFontInfo(char)!c	PARAMETERJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaz: z(;"
+typechar"
+isFinalfalse"
+declarationStringchar c*c2X
+charTYPEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaz5 z(9¥
+Eblarnix.libs.centeredmessages.DefaultFontInfo?character@101.17:101.26VARIABLEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javae e("
+isFinalfalse"
+typechar"j
+declarationStringU<mark class="modifier">private </mark>char <mark class="class-field">character</mark>"
+isStaticfalse"
+accessprivate*	character2X
+charTYPEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javae e(«
+Bblarnix.libs.centeredmessages.DefaultFontInfo?length@102.16:102.22VARIABLEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaf f("
+isFinalfalse"
+typeint"Ñ
+declarationStringo<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">length</mark>"
+isStaticfalse"
+accessprivate*length2W
+intTYPEJ
+@src\main\java\blarnix\libs\centeredmessages\DefaultFontInfo.javaf f(

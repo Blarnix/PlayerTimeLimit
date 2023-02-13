@@ -1,0 +1,151 @@
+
+3src\main\java\blarnix\configs\others\TimeLimit.java⁄	
+ blarnix.configs.others.TimeLimitCLASS=
+3src\main\java\blarnix\configs\others\TimeLimit.java ("!
+packageblarnix.configs.others"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"g
+declarationStringR<mark class="modifier">public </mark><mark class="modifier">class </mark>TimeLimit"
+accesspublic*	TimeLimit2è
+Ablarnix.configs.others.TimeLimit.TimeLimit(java.lang.String, int)DECLARATION=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2x
+*blarnix.configs.others.TimeLimit.getName()DECLARATION=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2à
+:blarnix.configs.others.TimeLimit.setName(java.lang.String)DECLARATION=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2x
+*blarnix.configs.others.TimeLimit.getTime()DECLARATION=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2{
+-blarnix.configs.others.TimeLimit.setTime(int)DECLARATION=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2}
+/blarnix.configs.others.TimeLimit?name@4.16:4.20DECLARATION=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2}
+/blarnix.configs.others.TimeLimit?time@5.13:5.17DECLARATION=
+3src\main\java\blarnix\configs\others\TimeLimit.java (˙
+
+Ablarnix.configs.others.TimeLimit.TimeLimit(java.lang.String, int)CONSTRUCTOR=
+3src\main\java\blarnix\configs\others\TimeLimit.java ("—
+declarationStringª<mark class="modifier">public </mark><mark class="method">TimeLimit</mark>(String name<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> time)*	TimeLimit2`
+java.lang.Object.Object()CALL=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2ç
+Fblarnix.configs.others.TimeLimit.TimeLimit(java.lang.String, int)!nameCALL=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2ç
+Fblarnix.configs.others.TimeLimit.TimeLimit(java.lang.String, int)!timeCALL=
+3src\main\java\blarnix\configs\others\TimeLimit.java	 	(2v
+/blarnix.configs.others.TimeLimit?name@4.16:4.20CALL=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2v
+/blarnix.configs.others.TimeLimit?time@5.13:5.17CALL=
+3src\main\java\blarnix\configs\others\TimeLimit.java	 	(2í
+Fblarnix.configs.others.TimeLimit.TimeLimit(java.lang.String, int)!name	PARAMETER=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2í
+Fblarnix.configs.others.TimeLimit.TimeLimit(java.lang.String, int)!time	PARAMETER=
+3src\main\java\blarnix\configs\others\TimeLimit.java# ('2n
+ blarnix.configs.others.TimeLimitRETURN_TYPE=
+3src\main\java\blarnix\configs\others\TimeLimit.java (µ
+Fblarnix.configs.others.TimeLimit.TimeLimit(java.lang.String, int)!name	PARAMETER=
+3src\main\java\blarnix\configs\others\TimeLimit.java ("
+typeString"
+isFinalfalse" 
+declarationStringString name*name2W
+java.lang.StringTYPE=
+3src\main\java\blarnix\configs\others\TimeLimit.java (¿
+Fblarnix.configs.others.TimeLimit.TimeLimit(java.lang.String, int)!time	PARAMETER=
+3src\main\java\blarnix\configs\others\TimeLimit.java# ('"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> time*time2J
+intTYPE=
+3src\main\java\blarnix\configs\others\TimeLimit.java ("ò
+*blarnix.configs.others.TimeLimit.getName()METHOD=
+3src\main\java\blarnix\configs\others\TimeLimit.java ("
+isFinalfalse"f
+declarationStringQ<mark class="modifier">public </mark>String <mark class="method">getName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getName2v
+/blarnix.configs.others.TimeLimit?name@4.16:4.20CALL=
+3src\main\java\blarnix\configs\others\TimeLimit.java	 (2^
+java.lang.StringRETURN_TYPE=
+3src\main\java\blarnix\configs\others\TimeLimit.java (Ÿ
+:blarnix.configs.others.TimeLimit.setName(java.lang.String)METHOD=
+3src\main\java\blarnix\configs\others\TimeLimit.java ("
+isFinalfalse"ç
+declarationStringx<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setName</mark>(String name)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setName2Ü
+?blarnix.configs.others.TimeLimit.setName(java.lang.String)!nameCALL=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2v
+/blarnix.configs.others.TimeLimit?name@4.16:4.20CALL=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2ã
+?blarnix.configs.others.TimeLimit.setName(java.lang.String)!name	PARAMETER=
+3src\main\java\blarnix\configs\others\TimeLimit.java ( 2R
+voidRETURN_TYPE=
+3src\main\java\blarnix\configs\others\TimeLimit.java (Æ
+?blarnix.configs.others.TimeLimit.setName(java.lang.String)!name	PARAMETER=
+3src\main\java\blarnix\configs\others\TimeLimit.java ( "
+typeString"
+isFinalfalse" 
+declarationStringString name*name2W
+java.lang.StringTYPE=
+3src\main\java\blarnix\configs\others\TimeLimit.java (§
+*blarnix.configs.others.TimeLimit.getTime()METHOD=
+3src\main\java\blarnix\configs\others\TimeLimit.java ("
+isFinalfalse"Å
+declarationStringl<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getTime</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getTime2v
+/blarnix.configs.others.TimeLimit?time@5.13:5.17CALL=
+3src\main\java\blarnix\configs\others\TimeLimit.java	 (2Q
+intRETURN_TYPE=
+3src\main\java\blarnix\configs\others\TimeLimit.java (Ã
+-blarnix.configs.others.TimeLimit.setTime(int)METHOD=
+3src\main\java\blarnix\configs\others\TimeLimit.java ("
+isFinalfalse"©
+declarationStringì<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setTime</mark>(<mark class="modifier">int</mark> time)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setTime2y
+2blarnix.configs.others.TimeLimit.setTime(int)!timeCALL=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2v
+/blarnix.configs.others.TimeLimit?time@5.13:5.17CALL=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2~
+2blarnix.configs.others.TimeLimit.setTime(int)!time	PARAMETER=
+3src\main\java\blarnix\configs\others\TimeLimit.java (2R
+voidRETURN_TYPE=
+3src\main\java\blarnix\configs\others\TimeLimit.java (¨
+2blarnix.configs.others.TimeLimit.setTime(int)!time	PARAMETER=
+3src\main\java\blarnix\configs\others\TimeLimit.java ("
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> time*time2J
+intTYPE=
+3src\main\java\blarnix\configs\others\TimeLimit.java (ä
+/blarnix.configs.others.TimeLimit?name@4.16:4.20VARIABLE=
+3src\main\java\blarnix\configs\others\TimeLimit.java ("
+isFinalfalse"
+typeString"g
+declarationStringR<mark class="modifier">private </mark>String <mark class="class-field">name</mark>"
+isStaticfalse"
+accessprivate*name2W
+java.lang.StringTYPE=
+3src\main\java\blarnix\configs\others\TimeLimit.java	 (ñ
+/blarnix.configs.others.TimeLimit?time@5.13:5.17VARIABLE=
+3src\main\java\blarnix\configs\others\TimeLimit.java ("
+isFinalfalse"
+typeint"Ç
+declarationStringm<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">time</mark>"
+isStaticfalse"
+accessprivate*time2J
+intTYPE=
+3src\main\java\blarnix\configs\others\TimeLimit.java	 (

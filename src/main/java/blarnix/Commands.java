@@ -3,6 +3,7 @@ package blarnix;
 
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.bukkit.Bukkit;
@@ -97,6 +98,7 @@ public class Commands implements CommandExecutor {
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl info &7Checks the remaining time for playtimes reset."));
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl check <player> &7Checks player time left and total time."));
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl resettime <player> &7Resets playtime for a player."));
+        sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl resettimeall &7Resets playtime for all players."));
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl addtime <player> <time> &7Adds playtime to a player."));
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl taketime <player> <time> &7Takes playtime from a player."));
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl reload &7Reloads the config."));
@@ -132,7 +134,6 @@ public class Commands implements CommandExecutor {
 					.replace("%remaining%", remaining)));
 		}
 	}
-
 	public void check(String[] args,Player player,FileConfiguration messages,MessagesManager msgManager) {
 		// /ptl check <player>
 		TimeLimitPlayer p = null;
@@ -190,6 +191,25 @@ public class Commands implements CommandExecutor {
 				.replace("%player%", args[1]), true);
 		return;
 	}
+
+    public void resetAllTime(CommandSender sender,FileConfiguration messages,MessagesManager msgManager) {
+        // /ptl resetalltime
+        // gets all players from the arraylist in PlayerManager, checks if there are actual players in the list, then resets the time for all players one by one in the for loop
+
+        ArrayList<TimeLimitPlayer> p = plugin.getPlayerManager().getAllPlayers();
+        if(p == null || p.size() <= 0) { // if it returned null, we know that there are no players in the database or there has been an error
+            msgManager.sendMessage(sender, messages.getString("playerDoesNotExists"), true);
+            return;
+        }
+
+        for(TimeLimitPlayer player : p) {   // for each player in the arraylist, reset their time
+            player.resetTime();
+        }
+
+        msgManager.sendMessage(sender, messages.getString("commandResetTimeCorrect")
+                .replace("%player%", "everyones"), true);
+        return;
+    }
 
 	// can only be used when the player is online
 	public void taketime(String[] args,CommandSender sender,FileConfiguration messages,MessagesManager msgManager) {
