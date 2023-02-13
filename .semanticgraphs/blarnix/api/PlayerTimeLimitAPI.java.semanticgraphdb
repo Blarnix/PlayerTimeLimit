@@ -1,193 +1,0 @@
-
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.javaê
-blarnix.api.PlayerTimeLimitAPICLASS;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java	 	("
-packageblarnix.api"
-isFinalfalse"
-inner classfalse"
-
-isAbstractfalse"p
-declarationString[<mark class="modifier">public </mark><mark class="modifier">class </mark>PlayerTimeLimitAPI"
-accesspublic*PlayerTimeLimitAPI2ñ
-Jblarnix.api.PlayerTimeLimitAPI.PlayerTimeLimitAPI(blarnix.PlayerTimeLimit)DECLARATION;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2ê
-Dblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)DECLARATION;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (!2ë
-Eblarnix.api.PlayerTimeLimitAPI.getTotalTime(org.bukkit.entity.Player)DECLARATION;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java ("2}
-1blarnix.api.PlayerTimeLimitAPI?plugin@11.32:11.38DECLARATION;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java  (&ê
-Jblarnix.api.PlayerTimeLimitAPI.PlayerTimeLimitAPI(blarnix.PlayerTimeLimit)CONSTRUCTOR;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java ("»
-declarationString≤<mark class="annotation">@SuppressWarnings("static-access")</mark> <br><mark class="modifier">public </mark><mark class="method">PlayerTimeLimitAPI</mark>(PlayerTimeLimit plugin)*PlayerTimeLimitAPI2ñ
-Qblarnix.api.PlayerTimeLimitAPI.PlayerTimeLimitAPI(blarnix.PlayerTimeLimit)!pluginCALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2v
-1blarnix.api.PlayerTimeLimitAPI?plugin@11.32:11.38CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2õ
-Qblarnix.api.PlayerTimeLimitAPI.PlayerTimeLimitAPI(blarnix.PlayerTimeLimit)!plugin	PARAMETER;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java+ (12j
-blarnix.api.PlayerTimeLimitAPIRETURN_TYPE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (Ÿ
-Qblarnix.api.PlayerTimeLimitAPI.PlayerTimeLimitAPI(blarnix.PlayerTimeLimit)!plugin	PARAMETER;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java+ (1"
-typePlayerTimeLimit"
-isFinalfalse"+
-declarationStringPlayerTimeLimit plugin*plugin2\
-blarnix.PlayerTimeLimitTYPE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (*‰
-Dblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)METHOD;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (!"
-isFinalfalse"ù
-declarationStringá<mark class="modifier">public </mark><mark class="modifier">static </mark>String <mark class="method">getTimeLeft</mark>(Player player)"
-isStatictrue"
-accesspublic"
-
-isAbstractfalse"
-typeString*getTimeLeft2o
-*blarnix.PlayerTimeLimit.getPlayerManager()CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java' (72ê
-Kblarnix.managers.PlayerManager.getTimeLimitPlayer(org.bukkit.entity.Player)CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java  (22ì
-Nblarnix.managers.PlayerManager.getTimeLeft(blarnix.model.TimeLimitPlayer, int)CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java ("2v
-1blarnix.api.PlayerTimeLimitAPI?plugin@11.32:11.38CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java  (&2£
-^blarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)?playerManager@18.16:18.29CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (#2ê
-Kblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)!playerCALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java4 (:2£
-^blarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)?playerManager@18.16:18.29CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2ê
-Kblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)!playerCALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java3 (92£
-^blarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)?playerManager@18.16:18.29CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java	 (2ó
-Rblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)?p@19.18:19.19CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java# ($2û
-Yblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)?timeLimit@20.6:20.15CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java& (/2ï
-Kblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)!player	PARAMETER;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java) (/2™
-^blarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)?playerManager@18.16:18.29DECLARATION;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2û
-Rblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)?p@19.18:19.19DECLARATION;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2•
-Yblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)?timeLimit@20.6:20.15DECLARATION;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2\
-java.lang.StringRETURN_TYPE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (º
-^blarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)?playerManager@18.16:18.29VARIABLE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java ("
-typePlayerManager"
-isFinalfalse"å
-declarationStringw<mark class="modifier"> </mark>PlayerManager <mark class="class-field">playerManager</mark> = plugin.getPlayerManager()*playerManager2c
-blarnix.managers.PlayerManagerTYPE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2o
-*blarnix.PlayerTimeLimit.getPlayerManager()CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java' (72v
-1blarnix.api.PlayerTimeLimitAPI?plugin@11.32:11.38CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java  (&ë
-Rblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)?p@19.18:19.19VARIABLE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java ("
-typeTimeLimitPlayer"
-isFinalfalse"®
-declarationStringí<mark class="modifier"> </mark>TimeLimitPlayer <mark class="class-field">p</mark> = playerManager.getPlayerByUUID(player.getUniqueId().toString())*p2b
-blarnix.model.TimeLimitPlayerTYPE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2£
-^blarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)?playerManager@18.16:18.29CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (#2ê
-Kblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)!playerCALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java4 (:ë
-Yblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)?timeLimit@20.6:20.15VARIABLE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java ("
-typeint"
-isFinalfalse"¨
-declarationStringñ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">timeLimit</mark> = playerManager.getTimeLimitPlayer(player)*	timeLimit2H
-intTYPE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2ê
-Kblarnix.managers.PlayerManager.getTimeLimitPlayer(org.bukkit.entity.Player)CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java  (22£
-^blarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)?playerManager@18.16:18.29CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2ê
-Kblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)!playerCALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java3 (9¬
-Kblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)!player	PARAMETER;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java) (/"
-typePlayer"
-isFinalfalse""
-declarationStringPlayer player*player2]
-org.bukkit.entity.PlayerTYPE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java" ((â
-Eblarnix.api.PlayerTimeLimitAPI.getTotalTime(org.bukkit.entity.Player)METHOD;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (""
-isFinalfalse"û
-declarationStringà<mark class="modifier">public </mark><mark class="modifier">static </mark>String <mark class="method">getTotalTime</mark>(Player player)"
-isStatictrue"
-accesspublic"
-
-isAbstractfalse"
-typeString*getTotalTime2o
-*blarnix.PlayerTimeLimit.getPlayerManager()CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java' (72å
-Gblarnix.utils.UtilsTime.getTime(long, blarnix.managers.MessagesManager)CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2q
-,blarnix.model.TimeLimitPlayer.getTotalTime()CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java ()2q
-,blarnix.PlayerTimeLimit.getMessagesManager()CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java4 (F2v
-1blarnix.api.PlayerTimeLimitAPI?plugin@11.32:11.38CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java  (&2§
-_blarnix.api.PlayerTimeLimitAPI.getTotalTime(org.bukkit.entity.Player)?playerManager@25.16:25.29CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (#2ë
-Lblarnix.api.PlayerTimeLimitAPI.getTotalTime(org.bukkit.entity.Player)!playerCALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java4 (:2ò
-Sblarnix.api.PlayerTimeLimitAPI.getTotalTime(org.bukkit.entity.Player)?p@26.18:26.19CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2v
-1blarnix.api.PlayerTimeLimitAPI?plugin@11.32:11.38CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java- (32ñ
-Lblarnix.api.PlayerTimeLimitAPI.getTotalTime(org.bukkit.entity.Player)!player	PARAMETER;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java* (02´
-_blarnix.api.PlayerTimeLimitAPI.getTotalTime(org.bukkit.entity.Player)?playerManager@25.16:25.29DECLARATION;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2ü
-Sblarnix.api.PlayerTimeLimitAPI.getTotalTime(org.bukkit.entity.Player)?p@26.18:26.19DECLARATION;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2\
-java.lang.StringRETURN_TYPE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (Ω
-_blarnix.api.PlayerTimeLimitAPI.getTotalTime(org.bukkit.entity.Player)?playerManager@25.16:25.29VARIABLE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java ("
-typePlayerManager"
-isFinalfalse"å
-declarationStringw<mark class="modifier"> </mark>PlayerManager <mark class="class-field">playerManager</mark> = plugin.getPlayerManager()*playerManager2c
-blarnix.managers.PlayerManagerTYPE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2o
-*blarnix.PlayerTimeLimit.getPlayerManager()CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java' (72v
-1blarnix.api.PlayerTimeLimitAPI?plugin@11.32:11.38CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java  (&î
-Sblarnix.api.PlayerTimeLimitAPI.getTotalTime(org.bukkit.entity.Player)?p@26.18:26.19VARIABLE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java ("
-typeTimeLimitPlayer"
-isFinalfalse"®
-declarationStringí<mark class="modifier"> </mark>TimeLimitPlayer <mark class="class-field">p</mark> = playerManager.getPlayerByUUID(player.getUniqueId().toString())*p2b
-blarnix.model.TimeLimitPlayerTYPE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (2§
-_blarnix.api.PlayerTimeLimitAPI.getTotalTime(org.bukkit.entity.Player)?playerManager@25.16:25.29CALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (#2ë
-Lblarnix.api.PlayerTimeLimitAPI.getTotalTime(org.bukkit.entity.Player)!playerCALL;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java4 (:√
-Lblarnix.api.PlayerTimeLimitAPI.getTotalTime(org.bukkit.entity.Player)!player	PARAMETER;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java* (0"
-typePlayer"
-isFinalfalse""
-declarationStringPlayer player*player2]
-org.bukkit.entity.PlayerTYPE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java# ()À
-1blarnix.api.PlayerTimeLimitAPI?plugin@11.32:11.38VARIABLE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java  (&"
-isFinalfalse"
-typePlayerTimeLimit"ò
-declarationStringÇ<mark class="modifier">private </mark><mark class="modifier">static </mark>PlayerTimeLimit <mark class="class-field">plugin</mark>"
-isStatictrue"
-accessprivate*plugin2\
-blarnix.PlayerTimeLimitTYPE;
-1src\main\java\blarnix\api\PlayerTimeLimitAPI.java (

@@ -1,163 +1,0 @@
-
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java∫
-$blarnix.api.ExpansionPlayerTimeLimitCLASSA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java (%"
-packageblarnix.api"
-isFinalfalse"
-inner classfalse"
-
-isAbstractfalse"≤
-declarationStringú<mark class="modifier">public </mark><mark class="modifier">class </mark>ExpansionPlayerTimeLimit<mark class="modifier"> extends </mark>PlaceholderExpansion"
-accesspublic*ExpansionPlayerTimeLimit2®
-Vblarnix.api.ExpansionPlayerTimeLimit.ExpansionPlayerTimeLimit(blarnix.PlayerTimeLimit)DECLARATIONA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java (#2Ä
-.blarnix.api.ExpansionPlayerTimeLimit.persist()DECLARATIONA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java   (2Ñ
-2blarnix.api.ExpansionPlayerTimeLimit.canRegister()DECLARATIONA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java* *(2Ç
-0blarnix.api.ExpansionPlayerTimeLimit.getAuthor()DECLARATIONA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java4 4(2Ü
-4blarnix.api.ExpansionPlayerTimeLimit.getIdentifier()DECLARATIONA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javaB B(2É
-1blarnix.api.ExpansionPlayerTimeLimit.getVersion()DECLARATIONA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javaM M(2∑
-eblarnix.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(org.bukkit.entity.Player, java.lang.String)DECLARATIONA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java_ _(&2â
-7blarnix.api.ExpansionPlayerTimeLimit?plugin@18.28:18.34DECLARATIONA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java ("2Ç
-5me.clip.placeholderapi.expansion.PlaceholderExpansionEXTENDA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java. (B£
-Vblarnix.api.ExpansionPlayerTimeLimit.ExpansionPlayerTimeLimit(blarnix.PlayerTimeLimit)CONSTRUCTORA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java (#"Ü
-declarationStringq<mark class="modifier">public </mark><mark class="method">ExpansionPlayerTimeLimit</mark>(PlayerTimeLimit plugin)*ExpansionPlayerTimeLimit2®
-]blarnix.api.ExpansionPlayerTimeLimit.ExpansionPlayerTimeLimit(blarnix.PlayerTimeLimit)!pluginCALLA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java (2Ç
-7blarnix.api.ExpansionPlayerTimeLimit?plugin@18.28:18.34CALLA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java
- (2≠
-]blarnix.api.ExpansionPlayerTimeLimit.ExpansionPlayerTimeLimit(blarnix.PlayerTimeLimit)!plugin	PARAMETERA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java4 (:2v
-$blarnix.api.ExpansionPlayerTimeLimitRETURN_TYPEA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java (#Ò
-]blarnix.api.ExpansionPlayerTimeLimit.ExpansionPlayerTimeLimit(blarnix.PlayerTimeLimit)!plugin	PARAMETERA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java4 (:"
-typePlayerTimeLimit"
-isFinalfalse"+
-declarationStringPlayerTimeLimit plugin*plugin2b
-blarnix.PlayerTimeLimitTYPEA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java$ (3Û
-.blarnix.api.ExpansionPlayerTimeLimit.persist()METHODA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java   ("
-isFinalfalse"¥
-declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">persist</mark>()"
-isStaticfalse"
-accesspublic"
-
-isAbstractfalse"
-typeboolean*persist2Y
-booleanRETURN_TYPEA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java   (ˇ
-2blarnix.api.ExpansionPlayerTimeLimit.canRegister()METHODA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java* *("
-isFinalfalse"∏
-declarationString¢<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">canRegister</mark>()"
-isStaticfalse"
-accesspublic"
-
-isAbstractfalse"
-typeboolean*canRegister2Y
-booleanRETURN_TYPEA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java* *(‚
-0blarnix.api.ExpansionPlayerTimeLimit.getAuthor()METHODA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java4 4("
-isFinalfalse"ó
-declarationStringÅ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">getAuthor</mark>()"
-isStaticfalse"
-accesspublic"
-
-isAbstractfalse"
-typeString*	getAuthor2b
-java.lang.StringRETURN_TYPEA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java4 4(Ó
-4blarnix.api.ExpansionPlayerTimeLimit.getIdentifier()METHODA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javaB B("
-isFinalfalse"õ
-declarationStringÖ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">getIdentifier</mark>()"
-isStaticfalse"
-accesspublic"
-
-isAbstractfalse"
-typeString*getIdentifier2b
-java.lang.StringRETURN_TYPEA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javaB B(Í
-1blarnix.api.ExpansionPlayerTimeLimit.getVersion()METHODA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javaM M("
-isFinalfalse"ò
-declarationStringÇ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">getVersion</mark>()"
-isStaticfalse"
-accesspublic"
-
-isAbstractfalse"
-typeString*
-getVersion2Ç
-7blarnix.api.ExpansionPlayerTimeLimit?plugin@18.28:18.34CALLA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javaN N(2b
-java.lang.StringRETURN_TYPEA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javaM M(∆
-eblarnix.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(org.bukkit.entity.Player, java.lang.String)METHODA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java_ _(&"
-isFinalfalse"˛
-declarationStringË<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">onPlaceholderRequest</mark>(Player player<mark class="modifier"><mark class="modifier">,</mark></mark> String identifier)"
-isStaticfalse"
-accesspublic"
-
-isAbstractfalse"
-typeString*onPlaceholderRequest2t
-)java.lang.String.equals(java.lang.Object)CALLA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javag g(2è
-Dblarnix.api.PlayerTimeLimitAPI.getTimeLeft(org.bukkit.entity.Player)CALLA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javah& h(12t
-)java.lang.String.equals(java.lang.Object)CALLA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javai i("2ê
-Eblarnix.api.PlayerTimeLimitAPI.getTotalTime(org.bukkit.entity.Player)CALLA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javaj& j(22∑
-lblarnix.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(org.bukkit.entity.Player, java.lang.String)!playerCALLA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javaa a(2ª
-pblarnix.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(org.bukkit.entity.Player, java.lang.String)!identifierCALLA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javag g(2∑
-lblarnix.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(org.bukkit.entity.Player, java.lang.String)!playerCALLA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javah2 h(82ª
-pblarnix.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(org.bukkit.entity.Player, java.lang.String)!identifierCALLA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javai i(2∑
-lblarnix.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(org.bukkit.entity.Player, java.lang.String)!playerCALLA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.javaj3 j(92º
-lblarnix.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(org.bukkit.entity.Player, java.lang.String)!player	PARAMETERA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java_. _(42¿
-pblarnix.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(org.bukkit.entity.Player, java.lang.String)!identifier	PARAMETERA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java_= _(G2b
-java.lang.StringRETURN_TYPEA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java_ _(Ô
-lblarnix.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(org.bukkit.entity.Player, java.lang.String)!player	PARAMETERA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java_. _(4"
-typePlayer"
-isFinalfalse""
-declarationStringPlayer player*player2c
-org.bukkit.entity.PlayerTYPEA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java_' _(-Û
-pblarnix.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(org.bukkit.entity.Player, java.lang.String)!identifier	PARAMETERA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java_= _(G"
-typeString"
-isFinalfalse"&
-declarationStringString identifier*
-identifier2[
-java.lang.StringTYPEA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java_6 _(<∑
-7blarnix.api.ExpansionPlayerTimeLimit?plugin@18.28:18.34VARIABLEA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java (""
-isFinalfalse"
-typePlayerTimeLimit"r
-declarationString]<mark class="modifier">private </mark>PlayerTimeLimit <mark class="class-field">plugin</mark>"
-isStaticfalse"
-accessprivate*plugin2b
-blarnix.PlayerTimeLimitTYPEA
-7src\main\java\blarnix\api\ExpansionPlayerTimeLimit.java (

@@ -1,332 +1,0 @@
-
-1src\main\java\blarnix\managers\ServerManager.java
-blarnix.managers.ServerManagerCLASS;
-1src\main\java\blarnix\managers\ServerManager.java ("
-packageblarnix.managers"
-isFinalfalse"
-inner classfalse"
-
-isAbstractfalse"k
-declarationStringV<mark class="modifier">public </mark><mark class="modifier">class </mark>ServerManager"
-accesspublic*ServerManager2ë
-Eblarnix.managers.ServerManager.ServerManager(blarnix.PlayerTimeLimit)DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java (2y
--blarnix.managers.ServerManager.saveDataTime()DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java (2|
-0blarnix.managers.ServerManager.executeDataTime()DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java (2â
-=blarnix.managers.ServerManager.getRemainingTimeForTimeReset()DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java* *(+2â
-=blarnix.managers.ServerManager.isValidWorld(org.bukkit.World)DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java2 2(2}
-1blarnix.managers.ServerManager?plugin@13.25:13.31DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java (Æ
-Eblarnix.managers.ServerManager.ServerManager(blarnix.PlayerTimeLimit)CONSTRUCTOR;
-1src\main\java\blarnix\managers\ServerManager.java ("{
-declarationStringf<mark class="modifier">public </mark><mark class="method">ServerManager</mark>(PlayerTimeLimit plugin)*ServerManager2ë
-Lblarnix.managers.ServerManager.ServerManager(blarnix.PlayerTimeLimit)!pluginCALL;
-1src\main\java\blarnix\managers\ServerManager.java (2v
-1blarnix.managers.ServerManager?plugin@13.25:13.31CALL;
-1src\main\java\blarnix\managers\ServerManager.java (2ñ
-Lblarnix.managers.ServerManager.ServerManager(blarnix.PlayerTimeLimit)!plugin	PARAMETER;
-1src\main\java\blarnix\managers\ServerManager.java& (,2j
-blarnix.managers.ServerManagerRETURN_TYPE;
-1src\main\java\blarnix\managers\ServerManager.java (‘
-Lblarnix.managers.ServerManager.ServerManager(blarnix.PlayerTimeLimit)!plugin	PARAMETER;
-1src\main\java\blarnix\managers\ServerManager.java& (,"
-typePlayerTimeLimit"
-isFinalfalse"+
-declarationStringPlayerTimeLimit plugin*plugin2\
-blarnix.PlayerTimeLimitTYPE;
-1src\main\java\blarnix\managers\ServerManager.java (%‚
--blarnix.managers.ServerManager.saveDataTime()METHOD;
-1src\main\java\blarnix\managers\ServerManager.java ("
-isFinalfalse"á
-declarationStringr<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">saveDataTime</mark>()"
-isStaticfalse"
-accesspublic"
-
-isAbstractfalse"
-typevoid*saveDataTime2u
-0blarnix.configs.MainConfigManager.getResetTime()CALL;
-1src\main\java\blarnix\managers\ServerManager.javaK (W2z
-5blarnix.configs.ConfigsManager.getMainConfigManager()CALL;
-1src\main\java\blarnix\managers\ServerManager.java4 (H2p
-+blarnix.PlayerTimeLimit.getConfigsManager()CALL;
-1src\main\java\blarnix\managers\ServerManager.java  (12Å
-<blarnix.utils.UtilsTime.getNextResetMillis(java.lang.String)CALL;
-1src\main\java\blarnix\managers\ServerManager.java (12v
-1blarnix.managers.ServerManager?plugin@13.25:13.31CALL;
-1src\main\java\blarnix\managers\ServerManager.java (#2v
-1blarnix.managers.ServerManager?plugin@13.25:13.31CALL;
-1src\main\java\blarnix\managers\ServerManager.java (2ã
-Fblarnix.managers.ServerManager.saveDataTime()?resetTimeHour@23.9:23.22CALL;
-1src\main\java\blarnix\managers\ServerManager.java2 (?2Ö
-@blarnix.managers.ServerManager.saveDataTime()?config@20.20:20.26CALL;
-1src\main\java\blarnix\managers\ServerManager.java (2â
-Dblarnix.managers.ServerManager.saveDataTime()?finalMillis@24.7:24.18CALL;
-1src\main\java\blarnix\managers\ServerManager.java' (22v
-1blarnix.managers.ServerManager?plugin@13.25:13.31CALL;
-1src\main\java\blarnix\managers\ServerManager.java (2å
-@blarnix.managers.ServerManager.saveDataTime()?config@20.20:20.26DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java (2í
-Fblarnix.managers.ServerManager.saveDataTime()?resetTimeHour@23.9:23.22DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java	 (2ê
-Dblarnix.managers.ServerManager.saveDataTime()?finalMillis@24.7:24.18DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java (2P
-voidRETURN_TYPE;
-1src\main\java\blarnix\managers\ServerManager.java (±
-@blarnix.managers.ServerManager.saveDataTime()?config@20.20:20.26VARIABLE;
-1src\main\java\blarnix\managers\ServerManager.java ("
-typeFileConfiguration"
-isFinalfalse"Ç
-declarationStringm<mark class="modifier"> </mark>FileConfiguration <mark class="class-field">config</mark> = plugin.getConfig()*config2t
-/org.bukkit.configuration.file.FileConfigurationTYPE;
-1src\main\java\blarnix\managers\ServerManager.java (2v
-1blarnix.managers.ServerManager?plugin@13.25:13.31CALL;
-1src\main\java\blarnix\managers\ServerManager.java (#§
-Fblarnix.managers.ServerManager.saveDataTime()?resetTimeHour@23.9:23.22VARIABLE;
-1src\main\java\blarnix\managers\ServerManager.java	 ("
-typeString"
-isFinalfalse"≠
-declarationStringó<mark class="modifier"> </mark>String <mark class="class-field">resetTimeHour</mark> = plugin.getConfigsManager().getMainConfigManager().getResetTime()*resetTimeHour2U
-java.lang.StringTYPE;
-1src\main\java\blarnix\managers\ServerManager.java (2u
-0blarnix.configs.MainConfigManager.getResetTime()CALL;
-1src\main\java\blarnix\managers\ServerManager.javaK (W2z
-5blarnix.configs.ConfigsManager.getMainConfigManager()CALL;
-1src\main\java\blarnix\managers\ServerManager.java4 (H2p
-+blarnix.PlayerTimeLimit.getConfigsManager()CALL;
-1src\main\java\blarnix\managers\ServerManager.java  (12v
-1blarnix.managers.ServerManager?plugin@13.25:13.31CALL;
-1src\main\java\blarnix\managers\ServerManager.java (Ã
-Dblarnix.managers.ServerManager.saveDataTime()?finalMillis@24.7:24.18VARIABLE;
-1src\main\java\blarnix\managers\ServerManager.java ("
-typelong"
-isFinalfalse"≤
-declarationStringú<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">finalMillis</mark> = UtilsTime.getNextResetMillis(resetTimeHour)*finalMillis2I
-longTYPE;
-1src\main\java\blarnix\managers\ServerManager.java (2Å
-<blarnix.utils.UtilsTime.getNextResetMillis(java.lang.String)CALL;
-1src\main\java\blarnix\managers\ServerManager.java (12ã
-Fblarnix.managers.ServerManager.saveDataTime()?resetTimeHour@23.9:23.22CALL;
-1src\main\java\blarnix\managers\ServerManager.java2 (?Œ
-0blarnix.managers.ServerManager.executeDataTime()METHOD;
-1src\main\java\blarnix\managers\ServerManager.java ("
-isFinalfalse"ä
-declarationStringu<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">executeDataTime</mark>()"
-isStaticfalse"
-accesspublic"
-
-isAbstractfalse"
-typevoid*executeDataTime2i
-$java.lang.System.currentTimeMillis()CALL;
-1src\main\java\blarnix\managers\ServerManager.java$ $(2r
--blarnix.managers.PlayerManager.resetPlayers()CALL;
-1src\main\java\blarnix\managers\ServerManager.java% %(*2o
-*blarnix.PlayerTimeLimit.getPlayerManager()CALL;
-1src\main\java\blarnix\managers\ServerManager.java% %(2v
-1blarnix.managers.ServerManager?plugin@13.25:13.31CALL;
-1src\main\java\blarnix\managers\ServerManager.java (#2à
-Cblarnix.managers.ServerManager.executeDataTime()?config@31.20:31.26CALL;
-1src\main\java\blarnix\managers\ServerManager.java" "(2à
-Cblarnix.managers.ServerManager.executeDataTime()?config@31.20:31.26CALL;
-1src\main\java\blarnix\managers\ServerManager.java# #(2å
-Gblarnix.managers.ServerManager.executeDataTime()?millisReset@35.8:35.19CALL;
-1src\main\java\blarnix\managers\ServerManager.java$# $(.2v
-1blarnix.managers.ServerManager?plugin@13.25:13.31CALL;
-1src\main\java\blarnix\managers\ServerManager.java% %(
-2è
-Cblarnix.managers.ServerManager.executeDataTime()?config@31.20:31.26DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java (2ì
-Gblarnix.managers.ServerManager.executeDataTime()?millisReset@35.8:35.19DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java# #(2P
-voidRETURN_TYPE;
-1src\main\java\blarnix\managers\ServerManager.java (¥
-Cblarnix.managers.ServerManager.executeDataTime()?config@31.20:31.26VARIABLE;
-1src\main\java\blarnix\managers\ServerManager.java ("
-typeFileConfiguration"
-isFinalfalse"Ç
-declarationStringm<mark class="modifier"> </mark>FileConfiguration <mark class="class-field">config</mark> = plugin.getConfig()*config2t
-/org.bukkit.configuration.file.FileConfigurationTYPE;
-1src\main\java\blarnix\managers\ServerManager.java (2v
-1blarnix.managers.ServerManager?plugin@13.25:13.31CALL;
-1src\main\java\blarnix\managers\ServerManager.java (#≈
-Gblarnix.managers.ServerManager.executeDataTime()?millisReset@35.8:35.19VARIABLE;
-1src\main\java\blarnix\managers\ServerManager.java# #("
-typelong"
-isFinalfalse"Ø
-declarationStringô<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">millisReset</mark> = config.getLong("Data.next_millis_reset")*millisReset2I
-longTYPE;
-1src\main\java\blarnix\managers\ServerManager.java# #(2à
-Cblarnix.managers.ServerManager.executeDataTime()?config@31.20:31.26CALL;
-1src\main\java\blarnix\managers\ServerManager.java# #(ü
-=blarnix.managers.ServerManager.getRemainingTimeForTimeReset()METHOD;
-1src\main\java\blarnix\managers\ServerManager.java* *(+"
-isFinalfalse"{
-declarationStringf<mark class="modifier">public </mark>String <mark class="method">getRemainingTimeForTimeReset</mark>()"
-isStaticfalse"
-accesspublic"
-
-isAbstractfalse"
-typeString*getRemainingTimeForTimeReset2u
-0blarnix.configs.MainConfigManager.getResetTime()CALL;
-1src\main\java\blarnix\managers\ServerManager.java+K +(W2z
-5blarnix.configs.ConfigsManager.getMainConfigManager()CALL;
-1src\main\java\blarnix\managers\ServerManager.java+4 +(H2p
-+blarnix.PlayerTimeLimit.getConfigsManager()CALL;
-1src\main\java\blarnix\managers\ServerManager.java+  +(12Å
-<blarnix.utils.UtilsTime.getNextResetMillis(java.lang.String)CALL;
-1src\main\java\blarnix\managers\ServerManager.java, ,(12i
-$java.lang.System.currentTimeMillis()CALL;
-1src\main\java\blarnix\managers\ServerManager.java-, -(=2å
-Gblarnix.utils.UtilsTime.getTime(long, blarnix.managers.MessagesManager)CALL;
-1src\main\java\blarnix\managers\ServerManager.java/ /(2q
-,blarnix.PlayerTimeLimit.getMessagesManager()CALL;
-1src\main\java\blarnix\managers\ServerManager.java/+ /(=2v
-1blarnix.managers.ServerManager?plugin@13.25:13.31CALL;
-1src\main\java\blarnix\managers\ServerManager.java+ +(2õ
-Vblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?resetTimeHour@43.9:43.22CALL;
-1src\main\java\blarnix\managers\ServerManager.java,2 ,(?2ô
-Tblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?finalMillis@44.7:44.18CALL;
-1src\main\java\blarnix\managers\ServerManager.java- -($2ù
-Xblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?remainingMillis@45.7:45.22CALL;
-1src\main\java\blarnix\managers\ServerManager.java. .( 2ï
-Pblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?seconds@46.7:46.14CALL;
-1src\main\java\blarnix\managers\ServerManager.java/ /("2v
-1blarnix.managers.ServerManager?plugin@13.25:13.31CALL;
-1src\main\java\blarnix\managers\ServerManager.java/$ /(*2¢
-Vblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?resetTimeHour@43.9:43.22DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java+	 +(2†
-Tblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?finalMillis@44.7:44.18DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java, ,(2§
-Xblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?remainingMillis@45.7:45.22DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java- -(2ú
-Pblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?seconds@46.7:46.14DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java. .(2\
-java.lang.StringRETURN_TYPE;
-1src\main\java\blarnix\managers\ServerManager.java* *(¥
-Vblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?resetTimeHour@43.9:43.22VARIABLE;
-1src\main\java\blarnix\managers\ServerManager.java+	 +("
-typeString"
-isFinalfalse"≠
-declarationStringó<mark class="modifier"> </mark>String <mark class="class-field">resetTimeHour</mark> = plugin.getConfigsManager().getMainConfigManager().getResetTime()*resetTimeHour2U
-java.lang.StringTYPE;
-1src\main\java\blarnix\managers\ServerManager.java+ +(2u
-0blarnix.configs.MainConfigManager.getResetTime()CALL;
-1src\main\java\blarnix\managers\ServerManager.java+K +(W2z
-5blarnix.configs.ConfigsManager.getMainConfigManager()CALL;
-1src\main\java\blarnix\managers\ServerManager.java+4 +(H2p
-+blarnix.PlayerTimeLimit.getConfigsManager()CALL;
-1src\main\java\blarnix\managers\ServerManager.java+  +(12v
-1blarnix.managers.ServerManager?plugin@13.25:13.31CALL;
-1src\main\java\blarnix\managers\ServerManager.java+ +(Ï
-Tblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?finalMillis@44.7:44.18VARIABLE;
-1src\main\java\blarnix\managers\ServerManager.java, ,("
-typelong"
-isFinalfalse"≤
-declarationStringú<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">finalMillis</mark> = UtilsTime.getNextResetMillis(resetTimeHour)*finalMillis2I
-longTYPE;
-1src\main\java\blarnix\managers\ServerManager.java, ,(2Å
-<blarnix.utils.UtilsTime.getNextResetMillis(java.lang.String)CALL;
-1src\main\java\blarnix\managers\ServerManager.java, ,(12õ
-Vblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?resetTimeHour@43.9:43.22CALL;
-1src\main\java\blarnix\managers\ServerManager.java,2 ,(?⁄
-Xblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?remainingMillis@45.7:45.22VARIABLE;
-1src\main\java\blarnix\managers\ServerManager.java- -("
-typelong"
-isFinalfalse"≥
-declarationStringù<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">remainingMillis</mark> = finalMillis - System.currentTimeMillis()*remainingMillis2I
-longTYPE;
-1src\main\java\blarnix\managers\ServerManager.java- -(2i
-$java.lang.System.currentTimeMillis()CALL;
-1src\main\java\blarnix\managers\ServerManager.java-, -(=2ô
-Tblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?finalMillis@44.7:44.18CALL;
-1src\main\java\blarnix\managers\ServerManager.java- -($…
-Pblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?seconds@46.7:46.14VARIABLE;
-1src\main\java\blarnix\managers\ServerManager.java. .("
-typelong"
-isFinalfalse"ô
-declarationStringÉ<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">seconds</mark> = remainingMillis / 1000*seconds2I
-longTYPE;
-1src\main\java\blarnix\managers\ServerManager.java. .(2ù
-Xblarnix.managers.ServerManager.getRemainingTimeForTimeReset()?remainingMillis@45.7:45.22CALL;
-1src\main\java\blarnix\managers\ServerManager.java. .( ˆ
-=blarnix.managers.ServerManager.isValidWorld(org.bukkit.World)METHOD;
-1src\main\java\blarnix\managers\ServerManager.java2 2("
-isFinalfalse"ñ
-declarationStringÄ<mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isValidWorld</mark>(World world)"
-isStaticfalse"
-accesspublic"
-
-isAbstractfalse"
-typeboolean*isValidWorld2z
-5blarnix.configs.ConfigsManager.getMainConfigManager()CALL;
-1src\main\java\blarnix\managers\ServerManager.java3< 3(P2p
-+blarnix.PlayerTimeLimit.getConfigsManager()CALL;
-1src\main\java\blarnix\managers\ServerManager.java3( 3(92Ä
-;blarnix.configs.MainConfigManager.isWorldWhitelistEnabled()CALL;
-1src\main\java\blarnix\managers\ServerManager.java4 4((2Ä
-;blarnix.configs.MainConfigManager.getWorldWhitelistWorlds()CALL;
-1src\main\java\blarnix\managers\ServerManager.java8# 8(:2v
-1blarnix.managers.ServerManager?plugin@13.25:13.31CALL;
-1src\main\java\blarnix\managers\ServerManager.java3! 3('2ô
-Tblarnix.managers.ServerManager.isValidWorld(org.bukkit.World)?mainConfig@51.20:51.30CALL;
-1src\main\java\blarnix\managers\ServerManager.java4 4(2ô
-Tblarnix.managers.ServerManager.isValidWorld(org.bukkit.World)?mainConfig@51.20:51.30CALL;
-1src\main\java\blarnix\managers\ServerManager.java8 8("2ï
-Pblarnix.managers.ServerManager.isValidWorld(org.bukkit.World)?worlds@56.15:56.21CALL;
-1src\main\java\blarnix\managers\ServerManager.java9 9(2à
-Cblarnix.managers.ServerManager.isValidWorld(org.bukkit.World)!worldCALL;
-1src\main\java\blarnix\managers\ServerManager.java9 9(2ç
-Cblarnix.managers.ServerManager.isValidWorld(org.bukkit.World)!world	PARAMETER;
-1src\main\java\blarnix\managers\ServerManager.java2# 2((2†
-Tblarnix.managers.ServerManager.isValidWorld(org.bukkit.World)?mainConfig@51.20:51.30DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java3 3(2ú
-Pblarnix.managers.ServerManager.isValidWorld(org.bukkit.World)?worlds@56.15:56.21DECLARATION;
-1src\main\java\blarnix\managers\ServerManager.java8 8(2S
-booleanRETURN_TYPE;
-1src\main\java\blarnix\managers\ServerManager.java2 2(Õ
-Tblarnix.managers.ServerManager.isValidWorld(org.bukkit.World)?mainConfig@51.20:51.30VARIABLE;
-1src\main\java\blarnix\managers\ServerManager.java3 3("
-typeMainConfigManager"
-isFinalfalse"¶
-declarationStringê<mark class="modifier"> </mark>MainConfigManager <mark class="class-field">mainConfig</mark> = plugin.getConfigsManager().getMainConfigManager()*
-mainConfig2f
-!blarnix.configs.MainConfigManagerTYPE;
-1src\main\java\blarnix\managers\ServerManager.java3 3(2z
-5blarnix.configs.ConfigsManager.getMainConfigManager()CALL;
-1src\main\java\blarnix\managers\ServerManager.java3< 3(P2p
-+blarnix.PlayerTimeLimit.getConfigsManager()CALL;
-1src\main\java\blarnix\managers\ServerManager.java3( 3(92v
-1blarnix.managers.ServerManager?plugin@13.25:13.31CALL;
-1src\main\java\blarnix\managers\ServerManager.java3! 3('Ø
-Pblarnix.managers.ServerManager.isValidWorld(org.bukkit.World)?worlds@56.15:56.21VARIABLE;
-1src\main\java\blarnix\managers\ServerManager.java8 8("
-typeList<String>"
-isFinalfalse"è
-declarationStringz<mark class="modifier"> </mark>List<String> <mark class="class-field">worlds</mark> = mainConfig.getWorldWhitelistWorlds()*worlds2S
-java.util.ListTYPE;
-1src\main\java\blarnix\managers\ServerManager.java8 8(2^
-java.lang.StringTYPE_ARGUMENT;
-1src\main\java\blarnix\managers\ServerManager.java8 8(2Ä
-;blarnix.configs.MainConfigManager.getWorldWhitelistWorlds()CALL;
-1src\main\java\blarnix\managers\ServerManager.java8# 8(:2ô
-Tblarnix.managers.ServerManager.isValidWorld(org.bukkit.World)?mainConfig@51.20:51.30CALL;
-1src\main\java\blarnix\managers\ServerManager.java8 8("Æ
-Cblarnix.managers.ServerManager.isValidWorld(org.bukkit.World)!world	PARAMETER;
-1src\main\java\blarnix\managers\ServerManager.java2# 2(("
-typeWorld"
-isFinalfalse" 
-declarationStringWorld world*world2U
-org.bukkit.WorldTYPE;
-1src\main\java\blarnix\managers\ServerManager.java2 2("•
-1blarnix.managers.ServerManager?plugin@13.25:13.31VARIABLE;
-1src\main\java\blarnix\managers\ServerManager.java ("
-isFinalfalse"
-typePlayerTimeLimit"r
-declarationString]<mark class="modifier">private </mark>PlayerTimeLimit <mark class="class-field">plugin</mark>"
-isStaticfalse"
-accessprivate*plugin2\
-blarnix.PlayerTimeLimitTYPE;
-1src\main\java\blarnix\managers\ServerManager.java	 (

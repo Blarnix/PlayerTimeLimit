@@ -1,101 +1,0 @@
-
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java£
-blarnix.libs.bossbar.BossBarAPICLASS<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java ("
-packageblarnix.libs.bossbar"
-isFinalfalse"
-inner classfalse"
-
-isAbstractfalse"h
-declarationStringS<mark class="modifier">public </mark><mark class="modifier">class </mark>BossBarAPI"
-accesspublic*
-BossBarAPI2Ô
-†blarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)DECLARATION<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java (Ç
-†blarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)METHOD<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java ("
-isFinalfalse"û
-declarationStringå<mark class="modifier">public </mark><mark class="modifier">static </mark>BossBar <mark class="method">create</mark>(Player player<mark class="modifier"><mark class="modifier">,</mark></mark> String title<mark class="modifier"><mark class="modifier">,</mark></mark> BarColor color<mark class="modifier"><mark class="modifier">,</mark></mark> BarStyle style)"
-isStatictrue"
-accesspublic"
-
-isAbstractfalse"
-typeBossBar*create2ˆ
-Bblarnix.managers.MessagesManager.getMessageColor(java.lang.String)CALL<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.javaE (T2Ó
-Œblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!titleCALL<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.javaU (Z2Ó
-Œblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!colorCALL<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java] (b2Ó
-Œblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!styleCALL<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.javad (i2á
-šblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)?bossBar@14.10:14.17CALL<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java (	2á
-šblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)?bossBar@14.10:14.17CALL<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java (	2Ô
-blarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!playerCALL<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java (2á
-šblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)?bossBar@14.10:14.17CALL<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java (	2á
-šblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)?bossBar@14.10:14.17CALL<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java (	2á
-šblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)?bossBar@14.10:14.17CALL<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java	 (2Ù
-blarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!player	PARAMETER<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java% (+2Ø
-Œblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!title	PARAMETER<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java3 (82Ø
-Œblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!color	PARAMETER<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.javaB (G2Ø
-Œblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!style	PARAMETER<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.javaQ (V2è
-šblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)?bossBar@14.10:14.17DECLARATION<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java
- (2d
-org.bukkit.boss.BossBarRETURN_TYPE<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java (ì
-
-šblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)?bossBar@14.10:14.17VARIABLE<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java
- ("
-typeBossBar"
-isFinalfalse"ì
-declarationStringÖ<mark class="modifier"> </mark>BossBar <mark class="class-field">bossBar</mark> = Bukkit.getServer().createBossBar(MessagesManager.getMessageColor(title)<mark class="modifier">,</mark> color, style, new BarFlag[0])*bossBar2]
-org.bukkit.boss.BossBarTYPE<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java (	2ˆ
-Bblarnix.managers.MessagesManager.getMessageColor(java.lang.String)CALL<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.javaE (T2Ó
-Œblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!titleCALL<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.javaU (Z2Ó
-Œblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!colorCALL<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java] (b2Ó
-Œblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!styleCALL<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.javad (i‡
-blarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!player	PARAMETER<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java% (+"
-typePlayer"
-isFinalfalse""
-declarationStringPlayer player*player2^
-org.bukkit.entity.PlayerTYPE<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java ($ü
-Œblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!title	PARAMETER<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java3 (8"
-typeString"
-isFinalfalse"!
-declarationStringString title*title2V
-java.lang.StringTYPE<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java, (2ˆ
-Œblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!color	PARAMETER<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.javaB (G"
-typeBarColor"
-isFinalfalse"#
-declarationStringBarColor color*color2^
-org.bukkit.boss.BarColorTYPE<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.java9 (Aˆ
-Œblarnix.libs.bossbar.BossBarAPI.create(org.bukkit.entity.Player, java.lang.String, org.bukkit.boss.BarColor, org.bukkit.boss.BarStyle)!style	PARAMETER<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.javaQ (V"
-typeBarStyle"
-isFinalfalse"#
-declarationStringBarStyle style*style2^
-org.bukkit.boss.BarStyleTYPE<
-2src\main\java\blarnix\libs\bossbar\BossBarAPI.javaH (P
