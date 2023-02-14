@@ -6,6 +6,7 @@ import java.io.IOException;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
+import org.bukkit.Bukkit;
 
 import blarnix.PlayerTimeLimit;
 
@@ -41,6 +42,7 @@ public class PlayerConfig {
 			  try {
 				configFile.createNewFile();
 			} catch (IOException e) {
+                Bukkit.getLogger().info("File failed to register (IOException): " + filePath);
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -50,7 +52,9 @@ public class PlayerConfig {
 	            config.load(configFile);
 	      } catch (IOException e) {
 	            e.printStackTrace();
+                Bukkit.getLogger().info("File failed to load (IOException): " + filePath);
 	      } catch (InvalidConfigurationException e) {
+            Bukkit.getLogger().info("File failed to load (InvalidConfigurationException): " + filePath);
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -60,7 +64,8 @@ public class PlayerConfig {
 		 try {
 			 config.save(configFile);
 		 } catch (IOException e) {
-			 e.printStackTrace();
+            Bukkit.getLogger().warning("File failed to save (IOException): " + filePath);
+			e.printStackTrace();
 	 	}
 	 }
 

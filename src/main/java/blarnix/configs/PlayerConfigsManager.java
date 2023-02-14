@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.Bukkit;
 
 import blarnix.PlayerTimeLimit;
 import blarnix.model.TimeLimitPlayer;
@@ -72,11 +73,6 @@ public class PlayerConfigsManager {
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not register players!: " + e.getMessage());
 		}
 	}
-
-	public ArrayList<PlayerConfig> getConfigPlayers(){
-		return this.configPlayers;
-	}
-
 	public boolean fileExists(String pathName) {
 		for(int i=0;i<configPlayers.size();i++) {
 			if(configPlayers.get(i).getPath().equals(pathName)) {
@@ -110,7 +106,7 @@ public class PlayerConfigsManager {
 		}
 	}
 
-	public void removerConfigPlayer(String path) {
+	public void removeConfigPlayer(String path) {
 		for(int i=0;i<configPlayers.size();i++) {
 			if(configPlayers.get(i).getPath().equals(path)) {
 				configPlayers.remove(i);
@@ -133,7 +129,7 @@ public class PlayerConfigsManager {
 			p.setTotalTime(players.getInt("total_time"));
 			p.setMessageEnabled(players.getBoolean("messages"));
 
-			jugadores.add(p);
+			playerArray.add(p);
 		}
 		plugin.getPlayerManager().setPlayers(jugadores);
     }catch(Exception e){

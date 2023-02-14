@@ -1,5 +1,5 @@
 main: blarnix.PlayerTimeLimit
-version: 1.6.1
+version: DEV-1.7
 name: PlayerTimeLimit
 api-version: 1.13
 author: Blarnix

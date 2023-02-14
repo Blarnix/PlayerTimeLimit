@@ -2,7 +2,7 @@
 <modelVersion>4.0.0</modelVersion>
 <groupId>io.github.playertimelimit</groupId>
 <artifactId>PlayerTimeLimit</artifactId>
-<version>0.0.1-SNAPSHOT</version>
+<version>DEV-1.7</version>
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
