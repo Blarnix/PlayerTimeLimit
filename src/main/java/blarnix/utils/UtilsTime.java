@@ -6,28 +6,28 @@ import blarnix.managers.MessagesManager;
 
 public class UtilsTime {
 
-	public static String getTime(long segundos,MessagesManager msgManager) {
-		long esperatotalmin = segundos/60;
-		long esperatotalhour = esperatotalmin/60;
-		long esperatotalday = esperatotalhour/24;
-		if(segundos > 59){
-			segundos = segundos - 60*esperatotalmin;
+	public static String getTime(long seconds,MessagesManager msgManager) {
+		long waittotalmin = seconds/60;
+		long waittotalhour = waittotalmin/60;
+		long waittotalday = waittotalhour/24;
+		if(seconds > 59){
+			seconds = seconds - 60*waittotalmin;
 		}
-		String time = segundos+msgManager.getTimeSeconds();
-		if(esperatotalmin > 59){
-			esperatotalmin = esperatotalmin - 60*esperatotalhour;
+		String time = seconds+msgManager.getTimeSeconds();
+		if(waittotalmin > 59){
+			waittotalmin = waittotalmin - 60*waittotalhour;
 		}
-		if(esperatotalmin > 0){
-			time = esperatotalmin+msgManager.getTimeMinutes()+" "+time;
+		if(waittotalmin > 0){
+			time = waittotalmin+msgManager.getTimeMinutes()+" "+time;
 		}
-		if(esperatotalhour > 24) {
-			esperatotalhour = esperatotalhour - 24*esperatotalday;
+		if(waittotalhour > 24) {
+			waittotalhour = waittotalhour - 24*waittotalday;
 		}
-		if(esperatotalhour > 0){
-			time = esperatotalhour+msgManager.getTimeHours()+" " + time;
+		if(waittotalhour > 0){
+			time = waittotalhour+msgManager.getTimeHours()+" " + time;
 		}
-		if(esperatotalday > 0) {
-			time = esperatotalday+msgManager.getTimeDays()+" " + time;
+		if(waittotalday > 0) {
+			time = waittotalday+msgManager.getTimeDays()+" " + time;
 		}
 
 		return time;
@@ -59,7 +59,7 @@ public class UtilsTime {
 	    	//Bukkit.getConsoleSender().sendMessage("Reset time: "+hour+":"+minute+"   | Not completed");
 	    	return calendar.getTimeInMillis();
 	    }else {
-	    	//La hora de reinicio ya paso en el dia
+	    	//The reset time has already passed in the day
 	    	//Bukkit.getConsoleSender().sendMessage("Reset time: "+hour+":"+minute+"   | Completed");
 	    	calendar.add(Calendar.DAY_OF_YEAR, 1);
 	    	//Bukkit.getConsoleSender().sendMessage("New date: "+calendar.toString());

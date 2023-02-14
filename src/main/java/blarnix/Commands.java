@@ -95,7 +95,7 @@ public class Commands implements CommandExecutor {
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl info &7Checks the remaining time for playtimes reset."));
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl check <player> &7Checks player time left and total time."));
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl resettime <player> &7Resets playtime for a player."));
-        sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl resettimeall &7Resets playtime for all players."));
+        sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl resetalltime &7Resets playtime for all players."));
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl addtime <player> <time> &7Adds playtime to a player."));
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl taketime <player> <time> &7Takes playtime from a player."));
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl reload &7Reloads the config."));
@@ -189,7 +189,7 @@ public class Commands implements CommandExecutor {
 		return;
 	}
 
-    public void resetAllTime(CommandSender sender,FileConfiguration messages,MessagesManager msgManager) {
+    public void resetalltime(CommandSender sender,FileConfiguration messages,MessagesManager msgManager) {
         // /ptl resetalltime
         // gets all players from the arraylist in PlayerManager, checks if there are actual players in the list, then resets the time for all players one by one in the for loop
 
@@ -199,9 +199,7 @@ public class Commands implements CommandExecutor {
             return;
         }
 
-        for(TimeLimitPlayer player : p) {   // for each player in the arraylist, reset their time
-            player.resetTime();
-        }
+        plugin.getPlayerManager().resetPlayers(); // calls the resetPlayers method in PlayerManager, resetting the same way it would daily
 
         msgManager.sendMessage(sender, messages.getString("commandResetTimeCorrect")
                 .replace("%player%", "everyones"), true);
@@ -285,6 +283,4 @@ public class Commands implements CommandExecutor {
 				.replace("%player%", args[1]).replace("%time%", time+""), true);
 		return;
 	}
-
-    //public void resetservertime(CommandSender sender,FileConfiguration messages,MessagesManager msgManager) {
 }

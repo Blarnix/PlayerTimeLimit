@@ -4,5 +4,6 @@
         "latestversion"
     ],
     "files.trimTrailingWhitespace": false,
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.dependency.packagePresentation": "flat"
 }
