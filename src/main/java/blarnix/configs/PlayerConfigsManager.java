@@ -36,6 +36,7 @@ public class PlayerConfigsManager {
             if(!folder.exists()){
                 folder.mkdirs();
             }
+            Bukkit.getConsoleSender().sendMessage("INFO: Successfully created player folder."); // debug
         } catch(SecurityException e) {
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not create players folder! (SecurityException))");
             folder = null;
@@ -49,9 +50,11 @@ public class PlayerConfigsManager {
 		try{
             for(int i=0;i<configPlayers.size();i++) {
 			    configPlayers.get(i).savePlayerConfig();
+                Bukkit.getConsoleSender().sendMessage("INFO: Saved player: " + configPlayers.get(i).getPath());
 		    }
+            Bukkit.getConsoleSender().sendMessage("ERROR: Could not save players!: " + configPlayers.get(1)); // debug
         }catch(Exception e){
-            Bukkit.getConsoleSender().sendMessage("ERROR: Could not save players!: " + e.getMessage());
+            Bukkit.getConsoleSender().sendMessage("ERROR: Could not save players!: " + e.getMessage()); // debug
         }
     }
 
@@ -67,6 +70,7 @@ public class PlayerConfigsManager {
 		            config.registerPlayerConfig();
 		            configPlayers.add(config);
                 }
+            Bukkit.getConsoleSender().sendMessage("INFO: Registered player: " + configPlayers.get(i).getPath()); // debug
 		    }
         }catch(Exception e){
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not register players!: " + e.getMessage());
@@ -130,6 +134,7 @@ public class PlayerConfigsManager {
 
 			jugadores.add(p);
 		}
+        Bukkit.getConsoleSender().sendMessage("INFO: Loaded players: " + jugadores); // debug
 		plugin.getPlayerManager().setPlayers(jugadores);
     }catch(Exception e){
         Bukkit.getConsoleSender().sendMessage("ERROR: Could not load players!: " + e.getMessage());
@@ -152,5 +157,6 @@ public class PlayerConfigsManager {
 			players.set("messages", player.isMessageEnabled());
 		}
 		savePlayers();
+        Bukkit.getConsoleSender().sendMessage("INFO: Unloaded players."); // debug
 	}
 }

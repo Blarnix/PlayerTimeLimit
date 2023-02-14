@@ -118,6 +118,7 @@ public class Commands implements CommandExecutor {
 		sender.sendMessage(MessagesManager.getMessageColor("&c&m                                                                    "));
 		sender.sendMessage(MessagesManager.getMessageColor("      &b&lPlayerTime&c&lLimit &eCommands"));
 		sender.sendMessage(MessagesManager.getMessageColor(" "));
+        sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl help &7Gives you a list of commands."));
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl message &7Enables or disables the time limit information message for yourself."));
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl info &7Checks the remaining time for playtimes reset."));
 		sender.sendMessage(MessagesManager.getMessageColor("&8- &c/ptl check <player> &7Checks player time left and total time."));
@@ -131,7 +132,6 @@ public class Commands implements CommandExecutor {
 	}
 
 	public void reload(String[] args,CommandSender sender,FileConfiguration messages,MessagesManager msgManager) {
-        plugin.getConfigsManager().getPlayerConfigsManager().savePlayers(); // save players data before reloading
         plugin.reloadConfig();
 		msgManager.sendMessage(sender, messages.getString("commandReload"), true);
 	}
