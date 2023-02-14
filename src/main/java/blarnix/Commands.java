@@ -221,7 +221,7 @@ public class Commands implements CommandExecutor {
         // /ptl resetalltime
         // gets all players from the arraylist in PlayerManager, checks if there are actual players in the list, then resets the time for all players one by one in the for loop
 
-        ArrayList<TimeLimitPlayer> p = plugin.getPlayerManager().getAllPlayers();
+        ArrayList<TimeLimitPlayer> p = plugin.getPlayerManager().getPlayers();
         if(p == null || p.size() <= 0) { // if it returned null, we know that there are no players in the database or there has been an error
             msgManager.sendMessage(sender, messages.getString("playerDoesNotExists"), true);
             return;

@@ -2,6 +2,7 @@ package blarnix.listeners;
 
 import java.util.List;
 
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.World;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -32,10 +33,12 @@ public class PlayerListener implements Listener{
 
 	@EventHandler
 	public void onPreJoin(PlayerLoginEvent event) {
+        try{
 		Player player = event.getPlayer();
 		String uuid = player.getUniqueId().toString();
 		PlayerManager playerManager = plugin.getPlayerManager();
 		TimeLimitPlayer p = playerManager.getPlayerByUUID(uuid);
+
 		if(p != null) {
 			//If you enter the server and the world whitelist is activated, you will not be removed when trying to enter the server
 			if(plugin.getConfigsManager().getMainConfigManager().isWorldWhitelistEnabled()) {
@@ -53,12 +56,16 @@ public class PlayerListener implements Listener{
 				}
 				finalMessage = MessagesManager.getMessageColor(finalMessage);
 				event.disallow(Result.KICK_OTHER, finalMessage);
-			}
-		}
-	}
+            }
+            }
+		}catch(Exception e){
+                Bukkit.getConsoleSender().sendMessage("ERROR: Could not load player on prejoin: " + e.getMessage());
+        }
+    }
 
 	@EventHandler
 	public void onJoin(PlayerJoinEvent event) {
+        try{
 		Player player = event.getPlayer();
 
 		PlayerManager playerManager = plugin.getPlayerManager();
@@ -74,9 +81,12 @@ public class PlayerListener implements Listener{
 			if(player.isOp() && !(plugin.version.equals(plugin.latestversion))){
 				player.sendMessage(PlayerTimeLimit.namePlugin + ChatColor.RED +" There is a new version available. "+ChatColor.YELLOW+
 		  				  "("+ChatColor.GRAY+plugin.latestversion+ChatColor.YELLOW+")");
-				player.sendMessage(ChatColor.RED+"You can download it at: "+ChatColor.GREEN+"https://www.spigotmc.org/resources/96577/");
+				player.sendMessage(ChatColor.RED+"You can download it at: "+ChatColor.GREEN+"https://github.com/Blarnix/PlayerTimeLimit/releases/");
 			}
 		}
+    }catch(Exception e){
+        Bukkit.getConsoleSender().sendMessage("ERROR: Could not load player on join: " + e.getMessage());
+    }
 	}
 
 	@EventHandler
