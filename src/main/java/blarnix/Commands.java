@@ -14,6 +14,7 @@ import blarnix.managers.MessagesManager;
 import blarnix.managers.PlayerManager;
 import blarnix.model.TimeLimitPlayer;
 import blarnix.utils.UtilsTime;
+import net.md_5.bungee.api.ChatColor;
 
 
 
@@ -46,8 +47,11 @@ public class Commands implements CommandExecutor {
                 case "resetalltime":
                     resetalltime(sender, messages, msgManager);
                     break;
+                case "help":
+                    help(sender);
+                    break;
                 default:
-                    sender.sendMessage("Invalid command.");
+                    sender.sendMessage(ChatColor.RED + "Invalid command. " + ChatColor.WHITE + "For a list of commands, type /ptl help");
                     break;
             }
 		   return false;
@@ -91,8 +95,11 @@ public class Commands implements CommandExecutor {
             case "resetalltime":
                 resetalltime(sender, messages, msgManager);
                 break;
+            case "help":
+                help(sender);
+                break;
             default:
-                sender.sendMessage("Invalid command.");
+                sender.sendMessage(ChatColor.RED + "Invalid command. " + ChatColor.WHITE + "For a list of commands, type /ptl help");
                 break;
             }
 	   }else {
@@ -106,7 +113,7 @@ public class Commands implements CommandExecutor {
 	   return true;
 
 	}
-
+    //TODO: Add multiple help pages
 	public void help(CommandSender sender) {
 		sender.sendMessage(MessagesManager.getMessageColor("&c&m                                                                    "));
 		sender.sendMessage(MessagesManager.getMessageColor("      &b&lPlayerTime&c&lLimit &eCommands"));

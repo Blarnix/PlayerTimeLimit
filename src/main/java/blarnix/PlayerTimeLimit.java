@@ -193,7 +193,7 @@ public class PlayerTimeLimit extends JavaPlugin {
 		  }
 	}
 
-	public void updateChecker(){
+	public void updateChecker(){    // get the latest version from api.github.com and compare it with the current version, if they are different, send a message to the console
 		try {
 			HttpURLConnection con = (HttpURLConnection) new URL(
 					"https://api.github.com/Blarnix/PlayerTimeLimit/releases").openConnection();
