@@ -29,27 +29,37 @@ public class Commands implements CommandExecutor {
 	   FileConfiguration messages = plugin.getMessages();
 	   MessagesManager msgManager = plugin.getMessagesManager();
 	   if (!(sender instanceof Player)){
-		   if(args.length >= 1) {
-			   if(args[0].equalsIgnoreCase("reload")) {
-				   reload(args,sender,messages,msgManager);
-			   }else if(args[0].equalsIgnoreCase("resettime")) {
-				   resettime(args,sender,messages,msgManager);
-			   }else if(args[0].equalsIgnoreCase("taketime")) {
-				   taketime(args,sender,messages,msgManager);
-			   }else if(args[0].equalsIgnoreCase("addtime")) {
-				   addtime(args,sender,messages,msgManager);
-			   }
-		   }
-
+		   if(args.length >= 1) {   // switch case for commands that can be run from console, checks if the first argument is a valid command and runs it
+            switch (args[0].toLowerCase()) {
+                case "reload":
+                    reload(args, sender, messages, msgManager);
+                    break;
+                case "resettime":
+                    resettime(args, sender, messages, msgManager);
+                    break;
+                case "taketime":
+                    taketime(args, sender, messages, msgManager);
+                    break;
+                case "addtime":
+                    addtime(args, sender, messages, msgManager);
+                    break;
+                case "resetalltime":
+                    resetalltime(sender, messages, msgManager);
+                    break;
+                default:
+                    sender.sendMessage("Invalid command");
+                    break;
+            }
 		   return false;
 	   }
-	   Player jugador = (Player)sender;
+    }
+	   Player player = (Player)sender;
 	   boolean hasPermissions = false;
-	   if(jugador.isOp() || jugador.hasPermission("playertimelimit.admin")) {
+	   if(player.isOp() || player.hasPermission("playertimelimit.admin")) {
 		   hasPermissions = true;
 	   }
 	   if(args.length >= 1) {
-		   if(jugador.hasPermission("playertimelimit.command."+args[0].toLowerCase())) {
+		   if(player.hasPermission("playertimelimit.command."+args[0].toLowerCase())) {
 			   hasPermissions = true;
 		   }
 		   if(!hasPermissions) {
@@ -60,17 +70,17 @@ public class Commands implements CommandExecutor {
 		   if(args[0].equalsIgnoreCase("reload")) {
 			   reload(args,sender,messages,msgManager);
 		   }else if(args[0].equalsIgnoreCase("message")) {
-			   message(args,jugador,messages,msgManager);
+			   message(args,player,messages,msgManager);
 		   }else if(args[0].equalsIgnoreCase("info")) {
-			   info(args,jugador,messages,msgManager);
+			   info(args,player,messages,msgManager);
 		   }else if(args[0].equalsIgnoreCase("check")) {
-			   check(args,jugador,messages,msgManager);
+			   check(args,player,messages,msgManager);
 		   }else if(args[0].equalsIgnoreCase("resettime")) {
-			   resettime(args,jugador,messages,msgManager);
+			   resettime(args,player,messages,msgManager);
 		   }else if(args[0].equalsIgnoreCase("taketime")) {
-			   taketime(args,jugador,messages,msgManager);
+			   taketime(args,player,messages,msgManager);
 		   }else if(args[0].equalsIgnoreCase("addtime")) {
-			   addtime(args,jugador,messages,msgManager);
+			   addtime(args,player,messages,msgManager);
 		   }
 		   else {
 			   help(sender);

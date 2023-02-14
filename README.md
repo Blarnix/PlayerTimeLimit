@@ -58,7 +58,6 @@ them a specific playtime limit.
 **Config.yml**
 
 ```yaml
-
 # Whether the plugin should alert OP players of new plugin updates
 # when joining the server.
 update_notification: true
