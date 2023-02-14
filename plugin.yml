@@ -1,23 +1,11 @@
-<<<<<<< HEAD
-main: ptl.ajneb97.PlayerTimeLimit
+main: blarnix.PlayerTimeLimit
 version: 1.6.1
 name: PlayerTimeLimit
 api-version: 1.13
-author: Ajneb97
-=======
-main: io.github.PlayerTimeLimit
-version: 1.6.2
-name: PlayerTimeLimit
-api-version: 1.13
 author: Blarnix
->>>>>>> 23f360e (translate and clean up classes)
 softdepend: [Multiverse-Core,PlaceholderAPI]
-
 commands:
   playertimelimit:
     description: Main command of PlayerTimeLimit
-<<<<<<< HEAD
     aliases: [ptl]
-=======
     aliases: [ptl]
->>>>>>> 23f360e (translate and clean up classes)

@@ -11,23 +11,17 @@ timeMinutes: "m"
 timeHours: "h"
 timeDays: "d"
 timeInfinite: "∞"
-kickMessage:
+kickMessage: # player is kicked from the server
 - "&c&lKICKED FROM THE SERVER!"
 - "&7You were kicked since you run out of playtime for today."
 - "&7Come tomorrow to continue playing!"
 - ""
-- "&7Discord: &bdiscord.myserver.com"
-- "&7Buy a &aRANK &7to get more time!"
-- "&astore.myserver.com"
-joinErrorMessage:
+joinErrorMessage: # player is kicked from the server when they join and has no time left
 - "&c&lERROR!"
 - "&7You run out of playtime for today. Come tomorrow"
 - "&7to continue playing!"
 - ""
-- "&7Discord: &bdiscord.myserver.com"
-- "&7Buy a &aRANK &7to get more time!"
-- "&astore.myserver.com"
-infoCommandMessage:
+infoCommandMessage: # /ptl info
 - "&c&m                                          "
 - "&7Exact time when playtimes will be reset:"
 - "&e%reset_time%"
@@ -35,7 +29,7 @@ infoCommandMessage:
 - "&7Remaining time until reset:"
 - "&e%remaining%"
 - "&c&m                                          "
-checkCommandMessage:
+checkCommandMessage: # /ptl check <player>
 - "&c&m                                          "
 - "&7&l%player% Data:"
 - "&7Time left: &a%time_left%"
