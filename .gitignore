@@ -38,3 +38,10 @@ local.properties
 .recommenders
 
 .players/
+
+#Visual Studio Code
+.vscode/
+
+# External tool builders
+.externalToolBuilders/
+target/
