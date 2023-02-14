@@ -61,7 +61,7 @@ public class Commands implements CommandExecutor {
 	   if(args.length >= 1) {
 		   if(player.hasPermission("playertimelimit.command."+args[0].toLowerCase())) {
 			   hasPermissions = true;
-		   }
+		   }    // TODO: change to switch case
 		   if(!hasPermissions) {
 			   msgManager.sendMessage(sender, messages.getString("noPermissions"), true);
 			   return true;
@@ -81,8 +81,9 @@ public class Commands implements CommandExecutor {
 			   taketime(args,player,messages,msgManager);
 		   }else if(args[0].equalsIgnoreCase("addtime")) {
 			   addtime(args,player,messages,msgManager);
-		   }
-		   else {
+		   }else if(args[0].equalsIgnoreCase("resetalltime")) {
+                resetalltime(player,messages,msgManager);
+            }else {
 			   help(sender);
 		   }
 	   }else {
