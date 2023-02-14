@@ -47,7 +47,7 @@ public class Commands implements CommandExecutor {
                     resetalltime(sender, messages, msgManager);
                     break;
                 default:
-                    sender.sendMessage("Invalid command");
+                    sender.sendMessage("Invalid command.");
                     break;
             }
 		   return false;
@@ -61,31 +61,40 @@ public class Commands implements CommandExecutor {
 	   if(args.length >= 1) {
 		   if(player.hasPermission("playertimelimit.command."+args[0].toLowerCase())) {
 			   hasPermissions = true;
-		   }    // TODO: change to switch case
+		   }
 		   if(!hasPermissions) {
 			   msgManager.sendMessage(sender, messages.getString("noPermissions"), true);
 			   return true;
 		   }
-
-		   if(args[0].equalsIgnoreCase("reload")) {
-			   reload(args,sender,messages,msgManager);
-		   }else if(args[0].equalsIgnoreCase("message")) {
-			   message(args,player,messages,msgManager);
-		   }else if(args[0].equalsIgnoreCase("info")) {
-			   info(args,player,messages,msgManager);
-		   }else if(args[0].equalsIgnoreCase("check")) {
-			   check(args,player,messages,msgManager);
-		   }else if(args[0].equalsIgnoreCase("resettime")) {
-			   resettime(args,player,messages,msgManager);
-		   }else if(args[0].equalsIgnoreCase("taketime")) {
-			   taketime(args,player,messages,msgManager);
-		   }else if(args[0].equalsIgnoreCase("addtime")) {
-			   addtime(args,player,messages,msgManager);
-		   }else if(args[0].equalsIgnoreCase("resetalltime")) {
-                resetalltime(player,messages,msgManager);
-            }else {
-			   help(sender);
-		   }
+		   switch (args[0].toLowerCase()) {
+            case "check":
+                check(args, player, messages, msgManager);
+                break;
+            case "message":
+                message(args, player, messages, msgManager);
+                break;
+            case "info":
+                info(args, player, messages, msgManager);
+                break;
+            case "reload":
+                reload(args, sender, messages, msgManager);
+                break;
+            case "resettime":
+                resettime(args, sender, messages, msgManager);
+                break;
+            case "taketime":
+                taketime(args, sender, messages, msgManager);
+                break;
+            case "addtime":
+                addtime(args, sender, messages, msgManager);
+                break;
+            case "resetalltime":
+                resetalltime(sender, messages, msgManager);
+                break;
+            default:
+                sender.sendMessage("Invalid command.");
+                break;
+            }
 	   }else {
 		   if(hasPermissions) {
 			   help(sender);
@@ -115,7 +124,8 @@ public class Commands implements CommandExecutor {
 	}
 
 	public void reload(String[] args,CommandSender sender,FileConfiguration messages,MessagesManager msgManager) {
-		plugin.reloadConfigs();
+        plugin.getConfigsManager().getPlayerConfigsManager().savePlayers(); // save players data before reloading
+        plugin.reloadConfig();
 		msgManager.sendMessage(sender, messages.getString("commandReload"), true);
 	}
 
@@ -212,8 +222,7 @@ public class Commands implements CommandExecutor {
 
         plugin.getPlayerManager().resetPlayers(); // calls the resetPlayers method in PlayerManager, resetting the same way it would daily
 
-        msgManager.sendMessage(sender, messages.getString("commandResetTimeCorrect")
-                .replace("%player%", "everyones"), true);
+        msgManager.sendMessage(sender, messages.getString("commandResetAllTimeCorrect"), true);
         return;
     }
 
