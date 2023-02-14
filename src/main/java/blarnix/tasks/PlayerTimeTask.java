@@ -52,7 +52,7 @@ public class PlayerTimeTask {
 				for(TimeLimitPlayer p : playerManager.getPlayers()) {
 					Player player = p.getPlayer();
 					if(player != null) {
-						//Esta conectado
+						//if connected
 						World world = player.getWorld();
 						if(!serverManager.isValidWorld(world)) {
 							p.eliminarBossBar();

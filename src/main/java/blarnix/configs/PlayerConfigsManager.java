@@ -57,9 +57,10 @@ public class PlayerConfigsManager {
 		try{
             for(int i=0;i<configPlayers.size();i++) {
 			    configPlayers.get(i).savePlayerConfig();
-                Bukkit.getConsoleSender().sendMessage("INFO: Saved player: " + configPlayers.get(i).getPath());
+                Bukkit.getConsoleSender().sendMessage("INFO: Saved players: " + configPlayers);
 		    }
-            Bukkit.getConsoleSender().sendMessage("ERROR: Could not save players!"); // debug
+            if(configPlayers.size() == 0)
+                Bukkit.getConsoleSender().sendMessage("INFO: No players to save."); // ISSUE: This is being output to console after "Got player config" and before
         }catch(Exception e){
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not save players!: " + e.getMessage()); // debug
         }
@@ -101,19 +102,24 @@ public class PlayerConfigsManager {
 		return null;
 	}
 
-	public ArrayList<PlayerConfig> getPlayerConfigs() {
+	public ArrayList<PlayerConfig> getConfigPlayers() {
 		return this.configPlayers;
 	}
 
 	public boolean registerPlayer(String pathName) {
-		if(!fileExists(pathName)) {
-			PlayerConfig config = new PlayerConfig(pathName,plugin);
-	        config.registerPlayerConfig();
-	        configPlayers.add(config);
-	        return true;
-		}else {
-			return false;
-		}
+        try{
+		    if(!fileExists(pathName)) {
+			    PlayerConfig config = new PlayerConfig(pathName,plugin);
+	            config.registerPlayerConfig();
+	            configPlayers.add(config);
+	            return true;
+		    }else {
+			    return false;
+		    }
+        }catch(Exception e){
+            Bukkit.getConsoleSender().sendMessage("ERROR: Could not register player!: " + e.getMessage());  //debug
+            return false;
+        }
 	}
 
 	public void removeConfigPlayer(String path) {
@@ -124,46 +130,50 @@ public class PlayerConfigsManager {
 		}
 	}
 
-	public void loadPlayers() {
-		ArrayList<TimeLimitPlayer> jugadores = new ArrayList<TimeLimitPlayer>();
-        //keeping the name 'jugador' for compatibility until i can find new ones
+    public void loadPlayers() {
         try{
-        for(PlayerConfig playerConfig : configPlayers) {
-			FileConfiguration players = playerConfig.getConfig();
-			String name = players.getString("name");
-			String uuid = playerConfig.getPath().replace(".yml", "");
+		    ArrayList<TimeLimitPlayer> jugadores = new ArrayList<TimeLimitPlayer>();
+		    for(PlayerConfig playerConfig : configPlayers) {
+		    	FileConfiguration players = playerConfig.getConfig();
+		    	String name = players.getString("name");
+		    	String uuid = playerConfig.getPath().replace(".yml", "");
 
-			TimeLimitPlayer p = new TimeLimitPlayer(uuid,name);
+		    	TimeLimitPlayer p = new TimeLimitPlayer(uuid,name);
 
-			p.setCurrentTime(players.getInt("current_time"));
-			p.setTotalTime(players.getInt("total_time"));
-			p.setMessageEnabled(players.getBoolean("messages"));
+		    	p.setCurrentTime(players.getInt("current_time"));
+		    	p.setTotalTime(players.getInt("total_time"));
+		    	p.setMessageEnabled(players.getBoolean("messages"));
 
-			jugadores.add(p);
-		}
-        Bukkit.getConsoleSender().sendMessage("INFO: Loaded players: " + jugadores); // debug
-		plugin.getPlayerManager().setPlayers(jugadores);
-    }catch(Exception e){
-        Bukkit.getConsoleSender().sendMessage("ERROR: Could not load players!: " + e.getMessage());
+		    	jugadores.add(p);
+		    }
+		    plugin.getPlayerManager().setPlayers(jugadores);
+            Bukkit.getConsoleSender().sendMessage("INFO: Loaded players: " + jugadores); // debug
+        }catch(Exception e){
+            Bukkit.getConsoleSender().sendMessage("ERROR: Could not load players!: " + e.getMessage()); // debug
         }
 	}
 
 	public void unloadPlayers() {
-		for(TimeLimitPlayer player : plugin.getPlayerManager().getPlayers()) {
-			String jugador = player.getName();  //keeping the name 'jugador' for compatibility until i can find new ones
-			PlayerConfig playerConfig = getPlayerConfig(player.getUuid()+".yml");
-			if(playerConfig == null) {
-				registerPlayer(player.getUuid()+".yml");
-				playerConfig = getPlayerConfig(player.getUuid()+".yml");
-			}
-			FileConfiguration players = playerConfig.getConfig();
+        try{
+		    for(TimeLimitPlayer player : plugin.getPlayerManager().getPlayers()) {
+			    String jugador = player.getName();
+			    PlayerConfig playerConfig = getPlayerConfig(player.getUuid()+".yml");
+			    if(playerConfig == null) {
+			    	registerPlayer(player.getUuid()+".yml");
+				    playerConfig = getPlayerConfig(player.getUuid()+".yml");
+			    }
+			    FileConfiguration players = playerConfig.getConfig();
 
-			players.set("name", jugador);
-			players.set("current_time", player.getCurrentTime());
-			players.set("total_time", player.getTotalTime());
-			players.set("messages", player.isMessageEnabled());
-		}
-		savePlayers();
-        Bukkit.getConsoleSender().sendMessage("INFO: Unloaded players."); // debug
-	}
+			    players.set("name", jugador);
+			    players.set("current_time", player.getCurrentTime());
+			    players.set("total_time", player.getTotalTime());
+			    players.set("messages", player.isMessageEnabled());
+		    }
+		    savePlayers();
+            Bukkit.getConsoleSender().sendMessage("INFO: Unloaded players."); // debug
+        }catch(Exception e){
+            Bukkit.getConsoleSender().sendMessage("ERROR: Could not unload players!: " + e.getMessage()); // debug
+        }
+    }
 }
+

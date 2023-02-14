@@ -205,7 +205,6 @@ public class PlayerTimeLimit extends JavaPlugin {
 				if(!version.equals(latestversion)){
 					Bukkit.getConsoleSender().sendMessage(ChatColor.RED +"There is a new version of " + namePlugin + " available. "+ChatColor.YELLOW+"("+ChatColor.GRAY+latestversion+ChatColor.YELLOW+")");
 					Bukkit.getConsoleSender().sendMessage(ChatColor.RED+"You can download it here: "+ChatColor.WHITE+"https://github.com/Blarnix/PlayerTimeLimit/releases/");
-                    Bukkit.getConsoleSender().sendMessage(ChatColor.RED+"You can download it here: "+ChatColor.WHITE+"https://github.com/Blarnix/PlayerTimeLimit/releases/");
 				}
 			}
 		} catch (Exception ex) {

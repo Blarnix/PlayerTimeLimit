@@ -28,7 +28,12 @@ public class PlayerManager {
 	}
 
 	public ArrayList<TimeLimitPlayer> getPlayers() {
-		return players;
+		try{
+            return players;
+        }catch(Exception e){
+            Bukkit.getConsoleSender().sendMessage("Error when returing 'players' array: " + e.getMessage());//debug
+            return players;
+        }
 	}
 
 	public void setPlayers(ArrayList<TimeLimitPlayer> players) {
@@ -53,17 +58,18 @@ public class PlayerManager {
 		return null;
 	}
 
-    public ArrayList<TimeLimitPlayer> getAllPlayers(){  // return the ArrayList of player objects, couldn't be simpler
-        return players;
-    }
-
 	public TimeLimitPlayer createPlayer(Player player) {
+        try{
 		TimeLimitPlayer p = new TimeLimitPlayer(player.getUniqueId().toString(),player.getName());
 		players.add(p);
 		FileConfiguration config = plugin.getConfig();
 		p.setMessageEnabled(config.getBoolean("information_message_enabled_by_default"));
-
 		return p;
+        }
+        catch(Exception e){
+            Bukkit.getConsoleSender().sendMessage("Error in createPlayer: " + e.getMessage());//debug
+            return null;
+        }
 	}
 
 	public void checkUserTime(final Player player,TimeLimitPlayer p) {
