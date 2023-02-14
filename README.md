@@ -148,6 +148,7 @@ notification:
 - /ptl info Checks the remaining time for playtimes reset.
 - /ptl check (optional)`<player>` Checks player time left and total time.
 - /ptl resettime `<player>` Resets playtime for a player.
+- /ptl resetalltime  Resets **all** players' times
 - /ptl addtime `<player>` `<time>` Adds playtime to a player.
 - /ptl taketime `<player>` `<time>` Takes playtime from a player.
 - /ptl reload Reloads the config.

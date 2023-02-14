@@ -61,13 +61,21 @@ public class Commands implements CommandExecutor {
 	   if(args.length >= 1) {
 		   if(player.hasPermission("playertimelimit.command."+args[0].toLowerCase())) {
 			   hasPermissions = true;
-		   }    // TODO: change to switch case
+		   }
 		   if(!hasPermissions) {
 			   msgManager.sendMessage(sender, messages.getString("noPermissions"), true);
 			   return true;
 		   }
-
 		   switch (args[0].toLowerCase()) {
+            case "check":
+                check(args, player, messages, msgManager);
+                break;
+            case "message":
+                message(args, player, messages, msgManager);
+                break;
+            case "info":
+                info(args, player, messages, msgManager);
+                break;
             case "reload":
                 reload(args, sender, messages, msgManager);
                 break;
@@ -116,7 +124,8 @@ public class Commands implements CommandExecutor {
 	}
 
 	public void reload(String[] args,CommandSender sender,FileConfiguration messages,MessagesManager msgManager) {
-		plugin.reloadConfigs();
+        plugin.getConfigsManager().getPlayerConfigsManager().savePlayers(); // save players data before reloading
+        plugin.reloadConfig();
 		msgManager.sendMessage(sender, messages.getString("commandReload"), true);
 	}
 

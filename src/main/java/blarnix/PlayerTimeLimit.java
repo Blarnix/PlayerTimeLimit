@@ -71,7 +71,6 @@ public class PlayerTimeLimit extends JavaPlugin {
 	   }
 
 	   Bukkit.getConsoleSender().sendMessage(namePlugin+ChatColor.YELLOW + "Has been enabled! " + ChatColor.WHITE + "Version: " + version);
-	   Bukkit.getConsoleSender().sendMessage(namePlugin+ChatColor.YELLOW + "Thanks for using my plugin!  " + ChatColor.WHITE + "~Ajneb97");
 
 	   updateChecker();
 	}
@@ -197,16 +196,16 @@ public class PlayerTimeLimit extends JavaPlugin {
 	public void updateChecker(){
 		try {
 			HttpURLConnection con = (HttpURLConnection) new URL(
-					"https://api.spigotmc.org/legacy/update.php?resource=96577").openConnection();
+					"https://api.github.com/Blarnix/PlayerTimeLimit/releases").openConnection();
 			int timed_out = 1250;
 			con.setConnectTimeout(timed_out);
 			con.setReadTimeout(timed_out);
 			latestversion = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
-			if (latestversion.length() <= 7) {
+			if (latestversion.length() <= 16) {
 				if(!version.equals(latestversion)){
-					Bukkit.getConsoleSender().sendMessage(ChatColor.RED +"There is a new version available. "+ChatColor.YELLOW+
+					Bukkit.getConsoleSender().sendMessage(ChatColor.RED +"There is a new version of " + namePlugin + " available. "+ChatColor.YELLOW+
 							"("+ChatColor.GRAY+latestversion+ChatColor.YELLOW+")");
-					Bukkit.getConsoleSender().sendMessage(ChatColor.RED+"You can download it at: "+ChatColor.WHITE+"https://www.spigotmc.org/resources/96577/");
+					Bukkit.getConsoleSender().sendMessage(ChatColor.RED+"You can download it at: "+ChatColor.WHITE+"https://github.com/Blarnix/PlayerTimeLimit/");
 				}
 			}
 		} catch (Exception ex) {
