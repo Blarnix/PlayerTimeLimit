@@ -15,8 +15,14 @@ public class PlayerConfigsManager {
 	private PlayerTimeLimit plugin;
 
 	public PlayerConfigsManager(PlayerTimeLimit plugin) {
-		this.plugin = plugin;
-		this.configPlayers = new ArrayList<PlayerConfig>();
+		try{
+            this.plugin = plugin;
+            this.configPlayers = new ArrayList<PlayerConfig>();
+            configure();
+            Bukkit.getConsoleSender().sendMessage("INFO: Created player config aray."); // debug
+        }catch(Exception e){
+            Bukkit.getConsoleSender().sendMessage("ERROR: Could not create player configs array!: " + e.getMessage());
+        }
 	}
 
 	public void configure() {
@@ -24,6 +30,7 @@ public class PlayerConfigsManager {
             createPlayersFolder();
             registerPlayers();
             loadPlayers();
+            Bukkit.getConsoleSender().sendMessage("INFO: Configured players."); // debug
         } catch(Exception e) {
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not configure players!: " + e.getMessage());
         }
@@ -52,7 +59,7 @@ public class PlayerConfigsManager {
 			    configPlayers.get(i).savePlayerConfig();
                 Bukkit.getConsoleSender().sendMessage("INFO: Saved player: " + configPlayers.get(i).getPath());
 		    }
-            Bukkit.getConsoleSender().sendMessage("ERROR: Could not save players!: " + configPlayers.get(1)); // debug
+            Bukkit.getConsoleSender().sendMessage("ERROR: Could not save players!"); // debug
         }catch(Exception e){
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not save players!: " + e.getMessage()); // debug
         }

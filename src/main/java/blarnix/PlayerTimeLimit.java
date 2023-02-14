@@ -92,7 +92,7 @@ public class PlayerTimeLimit extends JavaPlugin {
 	public void registerConfig(){
 		File config = new File(this.getDataFolder(), "config.yml");
 		routeConfig = config.getPath();
-		if(!config.exists()){
+		if(!config.exists()){   // if the config file doesn't exist, create a new one.
 			this.getConfig().options().copyDefaults(true);
 			saveConfig();
 		}
@@ -203,9 +203,9 @@ public class PlayerTimeLimit extends JavaPlugin {
 			latestversion = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
 			if (latestversion.length() <= 16) {
 				if(!version.equals(latestversion)){
-					Bukkit.getConsoleSender().sendMessage(ChatColor.RED +"There is a new version of " + namePlugin + " available. "+ChatColor.YELLOW+
-							"("+ChatColor.GRAY+latestversion+ChatColor.YELLOW+")");
+					Bukkit.getConsoleSender().sendMessage(ChatColor.RED +"There is a new version of " + namePlugin + " available. "+ChatColor.YELLOW+"("+ChatColor.GRAY+latestversion+ChatColor.YELLOW+")");
 					Bukkit.getConsoleSender().sendMessage(ChatColor.RED+"You can download it here: "+ChatColor.WHITE+"https://github.com/Blarnix/PlayerTimeLimit/releases/");
+                    Bukkit.getConsoleSender().sendMessage(ChatColor.RED+"You can download it here: "+ChatColor.WHITE+"https://github.com/Blarnix/PlayerTimeLimit/releases/");
 				}
 			}
 		} catch (Exception ex) {
