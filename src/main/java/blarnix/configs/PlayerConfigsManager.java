@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.Bukkit;
 
 import blarnix.PlayerTimeLimit;
 import blarnix.model.TimeLimitPlayer;
@@ -129,7 +128,7 @@ public class PlayerConfigsManager {
 			p.setTotalTime(players.getInt("total_time"));
 			p.setMessageEnabled(players.getBoolean("messages"));
 
-			playerArray.add(p);
+			jugadores.add(p);
 		}
 		plugin.getPlayerManager().setPlayers(jugadores);
     }catch(Exception e){

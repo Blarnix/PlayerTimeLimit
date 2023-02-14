@@ -42,7 +42,7 @@ public class PlayerConfig {
 			  try {
 				configFile.createNewFile();
 			} catch (IOException e) {
-                Bukkit.getLogger().info("File failed to register (IOException): " + filePath);
+                Bukkit.getConsoleSender().sendMessage("File failed to register (IOException): " + filePath);
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -54,7 +54,7 @@ public class PlayerConfig {
 	            e.printStackTrace();
                 Bukkit.getLogger().info("File failed to load (IOException): " + filePath);
 	      } catch (InvalidConfigurationException e) {
-            Bukkit.getLogger().info("File failed to load (InvalidConfigurationException): " + filePath);
+            Bukkit.getConsoleSender().sendMessage("File failed to load (InvalidConfigurationException): " + filePath);
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -64,7 +64,7 @@ public class PlayerConfig {
 		 try {
 			 config.save(configFile);
 		 } catch (IOException e) {
-            Bukkit.getLogger().warning("File failed to save (IOException): " + filePath);
+            Bukkit.getConsoleSender().sendMessage("File failed to save (IOException): " + filePath);
 			e.printStackTrace();
 	 	}
 	 }
