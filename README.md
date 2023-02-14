@@ -4,7 +4,7 @@ Original plugin and [documentation ](https://www.spigotmc.org/resources/playerti
 
 ================================================================================================
 
-##### **WARNING: At this point in time, none of code is remotely ready for use or tested. TEsting 123s**
+##### **WARNING: At this point in time, none of code is remotely ready for use or tested.
 
 ---
 
