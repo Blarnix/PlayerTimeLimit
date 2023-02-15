@@ -22,6 +22,7 @@ public class PlayerConfigsManager {
             Bukkit.getConsoleSender().sendMessage("INFO: Created player config aray."); // debug
         }catch(Exception e){
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not create player configs array!: " + e.getMessage());
+            e.printStackTrace();
         }
 	}
 
@@ -30,9 +31,9 @@ public class PlayerConfigsManager {
             createPlayersFolder();
             registerPlayers();
             loadPlayers();
-            Bukkit.getConsoleSender().sendMessage("INFO: Configured players."); // debug
         } catch(Exception e) {
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not configure players!: " + e.getMessage());
+            e.printStackTrace();
         }
 	}
 
@@ -47,9 +48,11 @@ public class PlayerConfigsManager {
         } catch(SecurityException e) {
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not create players folder! (SecurityException))");
             folder = null;
+            e.printStackTrace();
         } catch(Exception e) {
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not create players folder!: " + e.getMessage());
             folder = null;
+            e.printStackTrace();
         }
 	}
 
@@ -60,30 +63,32 @@ public class PlayerConfigsManager {
                 Bukkit.getConsoleSender().sendMessage("INFO: Saved players: " + configPlayers);
 		    }
             if(configPlayers.size() == 0)
-                Bukkit.getConsoleSender().sendMessage("INFO: No players to save."); // ISSUE: This is being output to console after "Got player config" and before
+            throw new Exception("No players to save.");// ISSUE: This is being output to console after "Got player config" and before
         }catch(Exception e){
-            Bukkit.getConsoleSender().sendMessage("ERROR: Could not save players!: " + e.getMessage()); // debug
+            Bukkit.getConsoleSender().sendMessage("WARNING: Could not save players!: " + e.getMessage()); // debug
+            e.printStackTrace();
         }
     }
 
-	public void registerPlayers(){
-		String path = plugin.getDataFolder() + File.separator + "players";
-		try{
-            File folder = new File(path);
-		    File[] listOfFiles = folder.listFiles();
-		    for (int i=0;i<listOfFiles.length;i++) {
-			    if(listOfFiles[i].isFile()) {
-		            String pathName = listOfFiles[i].getName();
-		            PlayerConfig config = new PlayerConfig(pathName,plugin);
-		            config.registerPlayerConfig();
-		            configPlayers.add(config);
+	public void registerPlayers(){  // issue is probably here, since it's not registering any players (even though the folder exists)
+        try{
+            File folder = new File(plugin.getDataFolder() + File.separator + "players");
+            File[] listOfFiles = folder.listFiles();
+            for (int i = 0; i < listOfFiles.length; i++) {
+                if (listOfFiles[i].isFile()) {
+                    String pathName = listOfFiles[i].getName();
+                    if(!fileExists(pathName)) {
+                        PlayerConfig config = new PlayerConfig(pathName,plugin);
+                        config.registerPlayerConfig();
+                        configPlayers.add(config);
+                    }
                 }
-            Bukkit.getConsoleSender().sendMessage("INFO: Registered player: " + configPlayers.get(i).getPath()); // debug
-		    }
+            }
         }catch(Exception e){
-            Bukkit.getConsoleSender().sendMessage("ERROR: Could not register players!: " + e.getMessage());
-		}
-	}
+            Bukkit.getConsoleSender().sendMessage("ERROR: Could not register players!: " + e.getMessage()); // debug
+            e.printStackTrace();
+        }
+    }
 	public boolean fileExists(String pathName) {
 		for(int i=0;i<configPlayers.size();i++) {
 			if(configPlayers.get(i).getPath().equals(pathName)) {
@@ -118,6 +123,7 @@ public class PlayerConfigsManager {
 		    }
         }catch(Exception e){
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not register player!: " + e.getMessage());  //debug
+            e.printStackTrace();
             return false;
         }
 	}
@@ -156,7 +162,6 @@ public class PlayerConfigsManager {
 	public void unloadPlayers() {
         try{
 		    for(TimeLimitPlayer player : plugin.getPlayerManager().getPlayers()) {
-			    String jugador = player.getName();
 			    PlayerConfig playerConfig = getPlayerConfig(player.getUuid()+".yml");
 			    if(playerConfig == null) {
 			    	registerPlayer(player.getUuid()+".yml");
@@ -164,7 +169,7 @@ public class PlayerConfigsManager {
 			    }
 			    FileConfiguration players = playerConfig.getConfig();
 
-			    players.set("name", jugador);
+			    players.set("name", player.getName());
 			    players.set("current_time", player.getCurrentTime());
 			    players.set("total_time", player.getTotalTime());
 			    players.set("messages", player.isMessageEnabled());

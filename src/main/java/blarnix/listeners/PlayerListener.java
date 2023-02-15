@@ -66,20 +66,14 @@ public class PlayerListener implements Listener{
 	@EventHandler
 	public void onJoin(PlayerJoinEvent event) {
         try{
-		Player player = event.getPlayer(); // gets the player who joined and registers it as a player object
-
+        Player player = event.getPlayer(); // gets the player who joined and registers it as a player object
 		PlayerManager playerManager = plugin.getPlayerManager();
 		TimeLimitPlayer p = playerManager.getPlayerByUUID(player.getUniqueId().toString()); // creates a new player if it doesn't exist
 		if(p == null) {
 			p = playerManager.createPlayer(player);
 		}
-        try{
 		p.setPlayer(player);
 		p.setName(player.getName());
-        }catch(Exception e){
-            Bukkit.getConsoleSender().sendMessage("ERROR: Could not set player on join: " + e);
-        }
-
 		FileConfiguration config = plugin.getConfig();
 		if(config.getString("update_notification").equals("true")) {
 			if(player.isOp() && !(plugin.version.equals(plugin.latestversion))){

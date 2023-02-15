@@ -63,8 +63,11 @@ public class PlayerConfig {
 	public void savePlayerConfig() {
 		 try {
 			 config.save(configFile);
-		 } catch (IOException e) {
-            Bukkit.getConsoleSender().sendMessage("File failed to save (IOException): " + filePath);
+             if(config == null || configFile == null) {
+                 throw new NullPointerException("Config or ConfigFile is null!");
+             }
+		 } catch (Exception e) {
+            Bukkit.getConsoleSender().sendMessage("File failed to save (IOException): " + e.getMessage());
 			e.printStackTrace();
 	 	}
 	 }
