@@ -65,8 +65,8 @@ public class PlayerListener implements Listener{
 
 	@EventHandler
 	public void onJoin(PlayerJoinEvent event) {
-        try{
         Player player = event.getPlayer(); // gets the player who joined and registers it as a player object
+
 		PlayerManager playerManager = plugin.getPlayerManager();
 		TimeLimitPlayer p = playerManager.getPlayerByUUID(player.getUniqueId().toString()); // creates a new player if it doesn't exist
 		if(p == null) {
@@ -75,6 +75,7 @@ public class PlayerListener implements Listener{
 		p.setPlayer(player);
 		p.setName(player.getName());
 		FileConfiguration config = plugin.getConfig();
+
 		if(config.getString("update_notification").equals("true")) {
 			if(player.isOp() && !(plugin.version.equals(plugin.latestversion))){
 				player.sendMessage(PlayerTimeLimit.namePlugin + ChatColor.RED +" There is a new version available. "+ChatColor.YELLOW+
@@ -82,9 +83,6 @@ public class PlayerListener implements Listener{
 				player.sendMessage(ChatColor.RED+"You can download it at: "+ChatColor.GREEN+"https://github.com/Blarnix/PlayerTimeLimit/releases/");
 			}
 		}
-    }catch(Exception e){
-        Bukkit.getConsoleSender().sendMessage("ERROR: On player join: " + e.getMessage());
-    }
 	}
 
 	@EventHandler

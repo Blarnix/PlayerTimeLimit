@@ -4,6 +4,7 @@ import blarnix.PlayerTimeLimit;
 import org.bukkit.Bukkit;
 // TODO: Add comments
 // TODO: Add a daily time limit scheduler
+// TODO: Rewrite the config managers
 public class ConfigsManager {
 
 	private PlayerConfigsManager playerConfigsManager;

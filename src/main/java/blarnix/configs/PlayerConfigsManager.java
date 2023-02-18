@@ -14,11 +14,10 @@ public class PlayerConfigsManager {
 	private ArrayList<PlayerConfig> configPlayers;
 	private PlayerTimeLimit plugin;
 
-	public PlayerConfigsManager(PlayerTimeLimit plugin) {
+	public PlayerConfigsManager(PlayerTimeLimit plugin) {   // on call, create a new player config array, and configure it (create folder, register players, load players) into it.
 		try{
             this.plugin = plugin;
             this.configPlayers = new ArrayList<PlayerConfig>();
-            configure();
             Bukkit.getConsoleSender().sendMessage("INFO: Created player config aray."); // debug
         }catch(Exception e){
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not create player configs array!: " + e.getMessage());
@@ -31,6 +30,7 @@ public class PlayerConfigsManager {
             createPlayersFolder();
             registerPlayers();
             loadPlayers();
+            Bukkit.getConsoleSender().sendMessage("INFO: Configured Player Configs."); // debug
         } catch(Exception e) {
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not configure players!: " + e.getMessage());
             e.printStackTrace();
@@ -60,10 +60,11 @@ public class PlayerConfigsManager {
 		try{
             for(int i=0;i<configPlayers.size();i++) {
 			    configPlayers.get(i).savePlayerConfig();
-                Bukkit.getConsoleSender().sendMessage("INFO: Saved players: " + configPlayers);
+                Bukkit.getConsoleSender().sendMessage("INFO: Saved player: " + configPlayers.get(i));
 		    }
-            if(configPlayers.size() == 0)
-            throw new Exception("No players to save.");// ISSUE: This is being output to console after "Got player config" and before
+            if(configPlayers.size() == 0){
+                throw new Exception("No players to save.");// ISSUE: This is being output to console after "Got player config", the configPlayers array is empty, every time
+            }
         }catch(Exception e){
             Bukkit.getConsoleSender().sendMessage("WARNING: Could not save players!: " + e.getMessage()); // debug
             e.printStackTrace();
@@ -72,18 +73,18 @@ public class PlayerConfigsManager {
 
 	public void registerPlayers(){  // issue is probably here, since it's not registering any players (even though the folder exists)
         try{
-            File folder = new File(plugin.getDataFolder() + File.separator + "players");
+            String path = plugin.getDataFolder() + File.separator + "players";
+            File folder = new File(path);
             File[] listOfFiles = folder.listFiles();
-            for (int i = 0; i < listOfFiles.length; i++) {
-                if (listOfFiles[i].isFile()) {
+            for (int i=0;i<listOfFiles.length;i++) {
+                if(listOfFiles[i].isFile()) {
                     String pathName = listOfFiles[i].getName();
-                    if(!fileExists(pathName)) {
-                        PlayerConfig config = new PlayerConfig(pathName,plugin);
-                        config.registerPlayerConfig();
-                        configPlayers.add(config);
-                    }
+                    PlayerConfig config = new PlayerConfig(pathName,plugin);
+                    config.registerPlayerConfig();
+                    configPlayers.add(config);
                 }
             }
+            Bukkit.getConsoleSender().sendMessage("INFO: Registered players: "+ configPlayers); // debug
         }catch(Exception e){
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not register players!: " + e.getMessage()); // debug
             e.printStackTrace();
@@ -113,10 +114,11 @@ public class PlayerConfigsManager {
 
 	public boolean registerPlayer(String pathName) {
         try{
-		    if(!fileExists(pathName)) {
+		    if(!fileExists(pathName)) { // if the player is not already registered, register them
 			    PlayerConfig config = new PlayerConfig(pathName,plugin);
 	            config.registerPlayerConfig();
 	            configPlayers.add(config);
+                Bukkit.getConsoleSender().sendMessage("INFO: Registered player to configPlayers: " + config); // debug
 	            return true;
 		    }else {
 			    return false;
@@ -136,9 +138,10 @@ public class PlayerConfigsManager {
 		}
 	}
 
-    public void loadPlayers() {
+    public void loadPlayers() { // could also be here, since it's loading no players whatsoever
         try{
-		    ArrayList<TimeLimitPlayer> jugadores = new ArrayList<TimeLimitPlayer>();
+		    ArrayList<TimeLimitPlayer> loadedPlayers = new ArrayList<TimeLimitPlayer>();
+
 		    for(PlayerConfig playerConfig : configPlayers) {
 		    	FileConfiguration players = playerConfig.getConfig();
 		    	String name = players.getString("name");
@@ -150,10 +153,10 @@ public class PlayerConfigsManager {
 		    	p.setTotalTime(players.getInt("total_time"));
 		    	p.setMessageEnabled(players.getBoolean("messages"));
 
-		    	jugadores.add(p);
+		    	loadedPlayers.add(p);
 		    }
-		    plugin.getPlayerManager().setPlayers(jugadores);
-            Bukkit.getConsoleSender().sendMessage("INFO: Loaded players: " + jugadores); // debug
+		    plugin.getPlayerManager().setPlayers(loadedPlayers);
+            Bukkit.getConsoleSender().sendMessage("INFO: Loaded players: " + loadedPlayers); // debug
         }catch(Exception e){
             Bukkit.getConsoleSender().sendMessage("ERROR: Could not load players!: " + e.getMessage()); // debug
         }

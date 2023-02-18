@@ -19,7 +19,7 @@ import blarnix.utils.UtilsTime;
 
 public class PlayerManager {
 
-    public ArrayList<TimeLimitPlayer> players;
+    private ArrayList<TimeLimitPlayer> players;
 	private PlayerTimeLimit plugin;
 
 	public PlayerManager(PlayerTimeLimit plugin) {
@@ -28,12 +28,7 @@ public class PlayerManager {
 	}
 
 	public ArrayList<TimeLimitPlayer> getPlayers() {
-		try{
             return players;
-        }catch(Exception e){
-            Bukkit.getConsoleSender().sendMessage("Error when returing 'players' array: " + e.getMessage());//debug
-            return players;
-        }
 	}
 
 	public void setPlayers(ArrayList<TimeLimitPlayer> players) {
@@ -58,7 +53,7 @@ public class PlayerManager {
 		return null;
 	}
 
-	public TimeLimitPlayer createPlayer(Player player) {
+	public TimeLimitPlayer createPlayer(Player player) { // on join, create a new player object
         try{
 		TimeLimitPlayer p = new TimeLimitPlayer(player.getUniqueId().toString(),player.getName());
 		players.add(p);
